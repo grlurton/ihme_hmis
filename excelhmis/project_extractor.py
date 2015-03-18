@@ -24,9 +24,11 @@ Reference an iso3 table to look up country name
 
 # set up python
 # --------------
-import sys, platform
+import sys, platform, os, psutil
 import numpy as np
 import pandas as pd
+if platform.system()=='Windows': j = 'J:'
+else: j = '/home/j'
 
 # inputs
 iso3 = 'ken'
@@ -34,9 +36,12 @@ country = 'kenya'
 varList = ['xiaJWeXNYif', 'L2dPeH9VkBc', 'h1GlCYbIQvU', 'OyddF1qflzP', 'ku80YRejJPg', 'K1Zzhafeukq']
 outputLocation = j + '/Project/Evaluation/GAVI/hmis/'+iso3+'/data/vaccine_extract.csv'
 
+iso3 = 'zmb'
+country = 'zambia'
+varList = [81, 126, 127, 128, 392, 393, 625, 626, 627, 628, 629]
+outputLocation = j + '/Project/Evaluation/GAVI/hmis/'+iso3+'/data/vaccine_extract.csv'
+
 # directories and files
-if platform.system()=='Windows': j = 'J:'
-else: j = '/home/j'
 dir = j + '/Project/dhis/'+country+'/extracted_data'
 dataFile = dir + '/data_'+country+'.csv'
 elementIDFile = dir + '/data_elements.csv'
@@ -83,13 +88,11 @@ data = data.drop('category_ID', axis=1)
 # replace organizational unit IDs with names
 # ------------------------------------------
 print 'Merging organizational unit IDs'
-orgUnitIDs = pd.read_csv(orgIDFile, sep=',', usecols=['org_unit_ID', 'name', 'parent_id', 'parent_name'])
+orgUnitIDs = pd.read_csv(orgIDFile, sep=',', usecols=['org_unit_ID', 'name'])
 orgUnitIDs = orgUnitIDs.drop_duplicates()
 
 # label each org unit with its parents
 # FILL IN
-# for quick purposes, just ignore this step
-orgUnitIDs = orgUnitIDs.drop(['parent_id', 'parent_name'], axis=1)
 
 # some org_units don't have names, just use their code
 orgUnitIDs['name'][orgUnitIDs['name']=='..']=orgUnitIDs['org_unit_ID'][orgUnitIDs['name']=='..']
