@@ -1,3 +1,4 @@
+from __future__ import division
 '''
 David Phillips
 3/17/2015
@@ -23,14 +24,12 @@ import numpy as np
 import pandas as pd
 import platform
 import os
-sys.stdout.flush() # real time output of messages
 
 # inputs
 iso3 = 'ZMB'
 country = 'zambia'
 extension = 'XLS'
 pattern = '2011_2014' # a specific pattern to use to identify included files
-pattern = 'ZMB_MUCHINGA_MPIKA_HMIS_2011_2014_SDA_HIV_CARE_Y2015M01D30' # a specific pattern to use to identify included files
 sheetName = 'Sheet 1'
 
 # directories and files
@@ -50,17 +49,20 @@ orgIDFile = outDir + '/org_units_description.csv'
 files = os.listdir(inDir)
 extLength = len(extension)
 files_xls = [f for f in files if f[-extLength:] == extension and pattern in f]
-nFiles = str(len(files_xls))
+nFiles = len(files_xls)
 
 # append files
-print 'Appending ' + nFiles + ' data files containing pattern ' + extension + ' and ' + pattern + ' from ' + inDir
+print 'Appending ' + str(nFiles) + ' data files containing pattern ' + extension + ' and ' + pattern + ' from ' + inDir
 data = pd.DataFrame()
 for f, file in enumerate(files_xls):
-    print f,
+    progress = round(f/nFiles,3)*100
+    sys.stdout.write("Progress: %d%%   \r" % (progress) ) # print progress in place
+    sys.stdout.flush() # real time output of messages
     df = pd.read_excel(inDir + '/' + file, sheetName)
     data = data.append(df)
     
 # codify data
+
 
 # output data
 # -----------
