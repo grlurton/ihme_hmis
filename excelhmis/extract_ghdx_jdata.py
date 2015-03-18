@@ -11,7 +11,6 @@ Outputs a massive file in the standard format
 
 '''
 TO DO:
-Codify data like data_kenya.csv
 Generalize to be a function
 Reference an iso3 table to look up country name
 '''
@@ -19,7 +18,7 @@ Reference an iso3 table to look up country name
 
 # set up python
 # --------------
-import sys, platform, os, string, random
+import sys, platform, os, string, random, psutil
 import numpy as np
 import pandas as pd
 
@@ -38,6 +37,11 @@ outDir = j + '/Project/dhis/' + country + '/extracted_data'
 dataFile = outDir + '/data_' + country + '.csv'
 elementIDFile = outDir + '/data_elements.csv'
 orgIDFile = outDir + '/org_units_description.csv'
+
+# make sure it's safe to run
+size = sum(os.path.getsize(inDir + '/' + f) for f in os.listdir(inDir) if os.path.isfile(inDir + '/' + f))
+availableMemory = psutil.phymem_usage().available
+if not size<availableMemory: raise AssertionError('Not enough memory! Switch to a bigger computer.')
 
 
 # prep data
