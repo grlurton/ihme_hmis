@@ -59,12 +59,9 @@ for f, file in enumerate(files_xls):
     print f,
     df = pd.read_excel(inDir + '/' + file, sheetName)
     data = data.append(df)
-
-# format into unicode
     
 # codify data
 
 # output data
 # -----------
-# make unicode compatible
-data.to_csv(dataFile)
+data.to_csv(dataFile, encoding='utf-8')
