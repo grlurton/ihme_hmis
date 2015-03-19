@@ -63,7 +63,6 @@ if not size<availableMemory: raise AssertionError('Not enough memory! Switch to 
 print 'Loading data from: ' + dataFile
 data = pd.read_csv(dataFile, sep=',', usecols=['org_unit_ID', 'period', 'data_element_ID', 'category', 'value'])
 data = data[data['data_element_ID'].isin(varList)]
-# test = data.set_index(['org_unit_ID', 'period', 'category', 'data_element_ID']).unstack('data_element_ID')
 
 
 # replace element IDs with names

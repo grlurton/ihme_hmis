@@ -37,6 +37,7 @@ outDir = j + '/Project/dhis/' + country + '/extracted_data'
 dataFile = outDir + '/data_' + country + '.csv'
 elementIDFile = outDir + '/data_elements.csv'
 orgIDFile = outDir + '/org_units_description.csv'
+categoryIDFile = outDir + '/data_categories.csv'
 
 # make sure it's safe to run
 size = sum(os.path.getsize(inDir + '/' + f) for f in os.listdir(inDir) if os.path.isfile(inDir + '/' + f))
@@ -60,6 +61,7 @@ for f, file in enumerate(files_xls):
     sys.stdout.write("Progress: '%1.1f'%% \r" % progress) # print progress in place
     sys.stdout.flush() # real time output of messages
     df = pd.read_excel(inDir + '/' + file, sheetName)
+    df['category'] = file # add category
     data = data.append(df)
     
 # codify data
@@ -80,10 +82,18 @@ orgUnitNames.sort()
 for o, name in enumerate(orgUnitNames):
     orgUnitIDs = orgUnitIDs.append(pd.Series([str(o), name], index=['org_unit_ID', 'name']), ignore_index=True)
 
+# categories
+categoryIDs = pd.DataFrame(columns=['category_ID', 'category_name'])
+categoryNames = data['category'].unique()
+categoryNames.sort()
+for c, name in enumerate(orgUnitNames):
+    categoryIDs = categoryIDs.append(pd.Series([str(c), name], index=['category_ID', 'category_name']), ignore_index=True)
+
 # merge ID's, drop names
 data = pd.merge(data, elementIDs, how='left', left_on='Data', right_on='element_name')
 data = pd.merge(data, orgUnitIDs, how='left', left_on='Organisation unit', right_on='name')
-data.drop(['Data', 'element_name', 'Organisation unit', 'name'], axis=1)
+data = pd.merge(data, orgUnitIDs, how='left', left_on='category', right_on='category_name')
+data.drop(['Data', 'element_name', 'Organisation unit', 'name', 'category', 'category_name'], axis=1)
 
 
 # output data and codebooks
@@ -96,3 +106,6 @@ elementIDs.to_csv(elementIDFile, encoding='utf-8', index=False)
 
 print 'Saving %s...' % (orgIDFile)
 orgUnitIDs.to_csv(orgIDFile, encoding='utf-8', index=False)
+
+print 'Saving %s...' % (categoryIDFile)
+categoryIDs.to_csv(categoryIDFile, encoding='utf-8', index=False)
