@@ -1,10 +1,10 @@
-###### Extraction of Data from Kenya HMIS Excel Files
+###### Extraction of Data from HMIS Excel Files
 
-### Author: Grégoire Lurton
+### Author: Grégoire Lurton, David Phillips
 ### Date : July 2014
 
 
-This ensemble of scripts are used to extract relevant information contained in the Excel files from Kenya HMIS, and to extract the data contained in these files before upload on SqlShare.
+This ensemble of scripts are used to extract relevant information contained in the Excel files from HMIS, and to extract the data contained in these files before upload on SqlShare.
 
 In the current version, every output is exported to IHME's J: Drive.
 
@@ -21,6 +21,11 @@ In the current version, every output is exported to IHME's J: Drive.
 4. Indicators Mapping :
 	map_indic_105.r , map_indic_705.r and map_indic_710.r are used to standardize the indicators formulation for each report. The most work is done for report 710. It outputs tables that show correspondence between indicators formulation in reports and their unified formulation. These tables will be uploaded to SqlShare for standardization of the data.
 
+5. extract_ghdx_jdata.py:
+	This is a fairly generalized file that takes data from IHME's J:/DATA directory and formats it into the "standard" format that we've adopted for this project. This standard format as basically just one enormous csv file, where data elements, org units and categories have been codified to save space.
+	
+6. project_extractor.py:
+	This script outputs a reduced csv file of the main "standard" format file for a specific country. The user inputs a list of variable IDs which the ultimate output should contain.
 
 Once these steps are made, the data, windows Metadata and Indicators mapping outputs are uploaded to sqlshare (https://sqlshare.escience.washington.edu/) where the data undergoes two adaptation :
 	1. Variable cleaning, using the output of indicator mapping
