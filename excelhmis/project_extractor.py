@@ -65,6 +65,11 @@ data = pd.read_csv(dataFile, sep=',', usecols=['org_unit_ID', 'period', 'data_el
 data = data[data['data_element_ID'].isin(varList)]
 
 
+# drop complete duplicates assuming they are unwanted
+# ---------------------------------------------------
+data = data.drop_duplicates()
+
+
 # replace element IDs with names
 # ------------------------------
 print 'Merging element IDs'
