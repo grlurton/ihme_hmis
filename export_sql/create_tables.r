@@ -1,5 +1,5 @@
 # ----------------------------------------------------------
-# David Phillips
+# David Phillips, Grégoire Lurton
 # 
 # 5/18/2015
 # Upload HMIS data as MySQL database
@@ -32,14 +32,14 @@ j = ifelse(Sys.info()[1]=="Windows", "J:", "/home/j")
 # Database settings
 
 # Database username and password
-dbUser = 'davidp6'
-dbPassword = 'davidp6123'
+dbUser <- readline('Please enter User Name : ')
+dbPassword <- readline('Please enter Password : ')
 
 # Database host name
 dbHost = 'sandbox-db'
 
 # Database name
-dbName = 'hmis'
+dbName <- 'hmis'
 # ----------------------------------------------------
 
 
@@ -51,6 +51,7 @@ tables = c('data_values', 'organization_units', 'data_elements', 'groups')
 
 # Flat file locations
 dir = paste0(j, '/Project/dhis/zambia/extracted_data/')
+
 files = list(
 	'data_values' = paste0(dir, 'data_zambia.csv'),
 	'organization_units' = paste0(dir, 'org_units_description.csv'),
@@ -63,13 +64,15 @@ columns = list(
 	'data_values'=c('value_ID', 'organization_unit_ID', 'indicator_ID', 
 					'age_ID', 'gender_ID', 'period', 'value', 'source_ID', 'NID'),
 	'organization_units'=c('organization_unit_ID', 'organization_unit_name', 
-							'organization_unit_start', 'organization_unit_end', 'group_pivot_ID'),
+							'organization_unit_start', 'organization_unit_end', 'group_pivot_ID' , 
+							'country_ID'),
 	'groups_pivot'=c('group_pivot_ID', 'organization_unit_ID', 'group_ID'),
 	'groups'=c('group_ID', 'group_name'),
 	'age'=c('age_ID', 'age_min', 'age_max'),
 	'gender'=c('gender_ID', 'gender_name'),
 	'source'=c('source_ID', 'source_name', 'source_date'),
-	'data_elements'=c('data_element_ID', 'data_element_name', 'metadata_pivot_ID'),
+	'data_elements'=c('data_element_ID', 'data_element_name', 'metadata_pivot_ID' ,
+	                  'country_ID'),
 	'metadata_pivot'=c('metadata_pivot_ID', 'data_element_ID', 'metadata_ID'),
 	'metadata'=c('metadata_ID', 'metadata_label')
 )
