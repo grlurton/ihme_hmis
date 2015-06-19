@@ -25,6 +25,8 @@ rm(list=ls())
 library('RMySQL')
 lapply( dbListConnections( dbDriver( drv = "MySQL")), dbDisconnect)
 j = ifelse(Sys.info()[1]=="Windows", "J:", "/home/j")
+
+
 # ------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -32,8 +34,8 @@ j = ifelse(Sys.info()[1]=="Windows", "J:", "/home/j")
 # Database settings
 
 # Database username and password
-dbUser <- readline('Please enter User Name : ')
-dbPassword <- readline('Please enter Password : ')
+dbUser <- readline(prompt = 'Please enter username : ')
+dbPassword <-  readline(prompt = 'Please enter password : ')
 
 # Database host name
 dbHost = 'sandbox-db'
@@ -47,7 +49,7 @@ dbName <- 'hmis'
 # Table and columns
 
 # Names of tables
-tables = c('data_values', 'organization_units', 'data_elements', 'groups')
+tables = c('data_values', 'organization_units', 'data_elements', 'groups' )
 
 # Flat file locations
 dir = paste0(j, '/Project/dhis/zambia/extracted_data/')
@@ -74,7 +76,8 @@ columns = list(
 	'data_elements'=c('data_element_ID', 'data_element_name', 'metadata_pivot_ID' ,
 	                  'country_ID'),
 	'metadata_pivot'=c('metadata_pivot_ID', 'data_element_ID', 'metadata_ID'),
-	'metadata'=c('metadata_ID', 'metadata_label')
+	'metadata'=c('metadata_ID', 'metadata_label'),
+	'country' = c('country_ID' , 'country_name')
 )
 
 # Column types
@@ -82,15 +85,17 @@ columnTypes = list(
 	'data_values'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL', 
 					'INT NOT NULL', 'INT NOT NULL', 'VARCHAR(45)', 'INT', 'INT NOT NULL', 'INT NOT NULL'),
 	'organization_units'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 
-							'VARCHAR(45)', 'VARCHAR(45)', 'INT NOT NULL'),
+							'VARCHAR(45)', 'VARCHAR(45)', 'INT NOT NULL' , 'INT NOT NULL'),
 	'groups_pivot'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL'),
 	'groups'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)'),
 	'age'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL'),
 	'gender'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)'),
 	'source'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 'VARCHAR(45)'),
-	'data_elements'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 'INT NOT NULL'),
+	'data_elements'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 'INT NOT NULL' ,
+	                  'INT NOT NULL'),
 	'metadata_pivot'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL'),
-	'metadata'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)')
+	'metadata'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)') ,
+	'country'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)')
 )
 
 # Primary keys
@@ -104,7 +109,8 @@ primaryKeys = list(
 	'source'='source_ID',
 	'data_elements'='data_element_ID',
 	'metadata_pivot'='metadata_pivot_ID',
-	'metadata'='metadata_ID'
+	'metadata'='metadata_ID' ,
+	'country' = 'country_ID'
 )
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -118,18 +124,22 @@ con = dbConnect(MySQL(), user=dbUser, password=dbPassword, host=dbHost, dbname=d
 # create tables
 for(table in tables) {
 	# drop table if exists
+  print(table)
 	dbGetQuery(con, paste0('DROP TABLE IF EXISTS ', table, ';'))
-
+  
 	# set up string to create blank table
-	createString = paste0('CREATE TABLE `', dbName, '`.`', table, '` (')
+	createString = paste0('CREATE TABLE ', dbName, '.', table, ' (')
+	print(createString)
 	c=1
 	for(column in columns[[table]]) {
+	  print(column)
 		type = columnTypes[[table]][c]
-		createString = paste0(createString, '`', column, '` ', type, ', ')
+		print(type)
+		createString = paste0(createString, ' ', column, ' ', type, ', ')
 		c=c+1
 	}
 	primaryKey = primaryKeys[[table]]
-	createString = paste0(createString, ' PRIMARY KEY (`', primaryKey, '`));')
+	createString = paste0(createString, ' PRIMARY KEY (', primaryKey, '));')
 	
 	# create blank table
 	dbGetQuery(con, createString)
@@ -139,4 +149,7 @@ for(table in tables) {
 					files[[table]], '\' INTO TABLE ', 
 					table, ' FIELDS TERMINATED BY \',\' LINES TERMINATED BY \'\n\';'))
 }
+
+
+dbDisconnect(con)
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
