@@ -1,6 +1,6 @@
 table,primary_key
 data_values,value_ID
-organization_unit,organization_unit_ID
+organization_units,organization_unit_ID
 groups_pivot_ID,group_ID
 data_elements,data_element_ID
 metadata_pivot,metadata_pivot_ID

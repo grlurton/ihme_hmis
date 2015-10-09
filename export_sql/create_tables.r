@@ -62,56 +62,37 @@ files = list(
 )
 
 # Columns
-columns = list(
-	'data_values'=c('value_ID', 'organization_unit_ID', 'indicator_ID', 
-					'age_ID', 'gender_ID', 'period', 'value', 'source_ID', 'NID'),
-	'organization_units'=c('organization_unit_ID', 'organization_unit_name', 
-							'organization_unit_start', 'organization_unit_end', 'group_pivot_ID' , 
-							'country_ID'),
-	'groups_pivot'=c('group_pivot_ID', 'organization_unit_ID', 'group_ID'),
-	'groups'=c('group_ID', 'group_name'),
-	'age'=c('age_ID', 'age_min', 'age_max'),
-	'gender'=c('gender_ID', 'gender_name'),
-	'source'=c('source_ID', 'source_name', 'source_date'),
-	'data_elements'=c('data_element_ID', 'data_element_name', 'metadata_pivot_ID' ,
-	                  'country_ID'),
-	'metadata_pivot'=c('metadata_pivot_ID', 'data_element_ID', 'metadata_ID'),
-	'metadata'=c('metadata_ID', 'metadata_label'),
-	'country' = c('country_ID' , 'country_name')
-)
+data_structure <- read.csv('structure/data_structure.csv' , stringsAsFactors = FALSE)
+data_structure[is.na(data_structure)] <- ''
+
+
+columns <- list()
+for (table in unique(data_structure$table)){
+  columns[[table]] <- data_structure$column[data_structure$table == table]
+}
+
 
 # Column types
-columnTypes = list(
-	'data_values'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL', 
-					'INT NOT NULL', 'INT NOT NULL', 'VARCHAR(45)', 'INT', 'INT NOT NULL', 'INT NOT NULL'),
-	'organization_units'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 
-							'VARCHAR(45)', 'VARCHAR(45)', 'INT NOT NULL' , 'INT NOT NULL'),
-	'groups_pivot'=c('INT NOT NULL AUTO_INCREMENT PRIMARY KEY', 'INT NOT NULL', 'INT NOT NULL'),
-	'groups'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)'),
-	'age'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL'),
-	'gender'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)'),
-	'source'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 'VARCHAR(45)'),
-	'data_elements'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 'INT NOT NULL' ,
-	                  'INT NOT NULL'),
-	'metadata_pivot'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL'),
-	'metadata'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)') ,
-	'country'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)')
-)
+columnTypes <- list()
+for (tab_value in unique(data_structure$table)){
+  types <- c()
+  table_data <- subset(data_structure , table == tab_value, select = c(type , default , nullable , character_set , extra))
+  for (var in seq(1,nrow(table_data))){
+    a <- paste(table_data[var,] , collapse = " ")
+    types <- c(types , a)
+  }
+  columnTypes[[tab_value]] <- types
+}
+
 
 # Primary keys
-primaryKeys = list(
-	'data_values'='value_ID',
-	'organization_units'='organization_unit_ID',
-	'groups_pivot'='group_pivot_ID',
-	'groups'='group_ID',
-	'age'='age_ID',
-	'gender'='gender_ID',
-	'source'='source_ID',
-	'data_elements'='data_element_ID',
-	'metadata_pivot'='metadata_pivot_ID',
-	'metadata'='metadata_ID' ,
-	'country' = 'country_ID'
-)
+primary_keys <- read.csv('structure/primary_keys.csv' , stringsAsFactors = FALSE)
+primary_keys[is.na(primary_keys)] <- ''
+primaryKeys <- list()
+for (table in unique(primary_keys$table)){
+  primaryKeys[[table]] <- primary_keys$primary_key[primary_keys$table == table]
+}
+
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

@@ -4,10 +4,10 @@ data_values,indicator_ID,data_elements,data_element_ID
 data_values,age_ID,age,age_ID
 data_values,gender_ID,gender,gender_ID
 data_values,source_ID,source,source_ID
-organization_unit,organization_unit_ID,groups_pivot,organization_unit_ID
-organization_unit,group_pivot_ID,groups_pivot,group_pivot_ID
+organization_units,organization_unit_ID,groups_pivot,organization_unit_ID
+organization_units,group_pivot_ID,groups_pivot,group_pivot_ID
 groups_pivot_ID,group_ID,groups,group_ID
-organization_unit,country_ID,country,country_ID
+organization_units,country_ID,country,country_ID
 data_elements,country_ID,country,country_ID
 data_elements,metadata_pivot_ID,metadata_pivot,metadata_pivot_ID
 data_elements,data_element_ID,metadata_pivot,data_element_ID
