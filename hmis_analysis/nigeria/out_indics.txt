@@ -1,0 +1,1825 @@
+% latex table generated in R 3.1.1 by xtable 1.7-4 package
+% Mon Feb 02 14:07:54 2015
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlr}
+  \hline
+ & Var1 & Freq \\ 
+  \hline
+1630 & Tetanus Toxoid for Pregnant women & 6379 \\ 
+  568 & DTC Outpatient Counselled & 4392 \\ 
+  570 & DTC Outpatient Tested & 4291 \\ 
+  1297 & Other Disease of Respiratory System & 3894 \\ 
+  660 & First attendances & 3827 \\ 
+  543 & Disease of the skin & 3656 \\ 
+  1233 & OPD attendance $>$5yrs Female & 3640 \\ 
+  1234 & OPD attendance $>$5yrs Male & 3623 \\ 
+  1232 & OPD Attendance $<$5yrs Male & 3573 \\ 
+  1231 & OPD Attendance $<$5yrs Female  & 3560 \\ 
+  531 & Diarrhoea & 3532 \\ 
+  1461 & Re-attendances & 3496 \\ 
+  153 & All other diseases & 3468 \\ 
+  173 & ANC Attendance & 3302 \\ 
+  670 & FP Injections & 3294 \\ 
+  669 & FP Attendance & 3248 \\ 
+  505 & CWC Attendance & 3244 \\ 
+  447 & Clinical Malaria & 3094 \\ 
+  607 & Eye Infections & 3000 \\ 
+  573 & Ear Infections & 2679 \\ 
+  1378 & Pneumonia & 2674 \\ 
+  204 & Artemether-Lumefantrine 20/120 Tabs 24s & 2654 \\ 
+  205 & Artemether-Lumefantrine 20/120 Tabs 6s & 2631 \\ 
+  1341 & Patients on AL by Weight Band Summary Report  & 2592 \\ 
+  1108 & Normal Weight 0-11months & 2519 \\ 
+  202 & Artemether-Lumefantrine 20/120 Tabs 12s & 2510 \\ 
+  1334 & Patient currently on Cotrimoxazole & 2287 \\ 
+  141 & Accidents & 2266 \\ 
+  1358 & Pills Microgynon & 2263 \\ 
+  203 & Artemether-Lumefantrine 20/120 Tabs 18s & 2262 \\ 
+  1721 & Urinary Tract Infection & 2224 \\ 
+  1109 & Normal Weight 12-35months & 2178 \\ 
+  1006 & Measles doses Administered & 2130 \\ 
+  336 & Burns & 2063 \\ 
+  479 & Confirmed Malaria & 1982 \\ 
+  677 & Fully Immunized Children(FIC) under 1 year & 1960 \\ 
+  1753 & VCT clients Counselled & 1852 \\ 
+  555 & DPT/Hep+HiB3 doses Administered & 1841 \\ 
+  1273 & OPV3 doses Administered & 1838 \\ 
+  553 & DPT/Hep+HiB1 doses Administered & 1831 \\ 
+  1269 & OPV1 doses Administered & 1826 \\ 
+  554 & DPT/Hep+HiB2 doses Administered & 1816 \\ 
+  156 & All others currently on ARVs & 1810 \\ 
+  1271 & OPV2 doses Administered & 1809 \\ 
+  1755 & VCT clients Tested & 1804 \\ 
+  442 & Client receiving condoms & 1803 \\ 
+  303 & BCG doses Administered & 1785 \\ 
+  1064 & New ANC clients & 1729 \\ 
+  1369 & Pneumococal 1 doses Administered & 1728 \\ 
+  1368 & PNC Attendance & 1723 \\ 
+  1371 & Pneumococal 3 doses Administered & 1722 \\ 
+  1466 & Re-Visit ANC Clients & 1718 \\ 
+  179 & ANC clients counselled & 1703 \\ 
+  1370 & Pneumococal 2 doses Administered & 1700 \\ 
+  357 & Chicken Pox & 1682 \\ 
+  184 & ANC clients Tested HIV & 1638 \\ 
+  522 & Dental Disorders & 1555 \\ 
+  833 & Injectables, FP & 1514 \\ 
+  1263 & OPV Birth doses Administered & 1506 \\ 
+  1244 & OPD Injections Given & 1505 \\ 
+  556 & DPT+HIB+HEP B doses in stock at the beginning of the Month & 1504 \\ 
+  558 & DPT+HIB+HEP B doses remaining at the end Month & 1486 \\ 
+  569 & DTC Outpatient HIV+ve & 1470 \\ 
+  1448 & Quinine (300mg) Tabs & 1466 \\ 
+  1409 & Pregnant women attending four ANC visits & 1458 \\ 
+  1264 & OPV doses in stock at the beginning of the Month & 1457 \\ 
+  1266 & OPV doses remaining at the end Month & 1455 \\ 
+  1110 & Normal Weight 36-59months & 1454 \\ 
+  1476 & Referrals out & 1454 \\ 
+  1007 & Measles doses in stock at the beginning of the Month & 1450 \\ 
+  1240 & OPD Dressing Done & 1432 \\ 
+  318 & Bites - Animal, Snake, etc & 1426 \\ 
+  1009 & Measles doses remaining  at the end Month & 1419 \\ 
+  1374 & Pneumococal doses remaining at the end Month & 1411 \\ 
+  1629 & Tetanus Toxiod doses remaining at  the end Month & 1409 \\ 
+  1627 & Tetanus Toxiod doses in stock at beginning of the Month & 1403 \\ 
+  1372 & Pneumococal doses in stock at the beginning of the Month & 1397 \\ 
+  1449 & Quinine inj (600mg/2ml) Amps & 1392 \\ 
+  1498 & Rheumatism, Joint pains etc. & 1372 \\ 
+  453 & Combined Oral contraceptive Pills, FP & 1311 \\ 
+  1695 & Typhoid fever & 1224 \\ 
+  1796 & Vitamin A Supplemental  under 1 Year(100,000IU) & 1224 \\ 
+  304 & BCG doses in stock at the beginning of the Month & 1204 \\ 
+  1586 & Sulphadoxine Pyrimethamine Tabs & 1194 \\ 
+  945 & Male Condoms, FP & 1191 \\ 
+  306 & BCG doses remaining at the end Month & 1182 \\ 
+  1252 & OPD Stitching Done & 1140 \\ 
+  1359 & Pills Microlut & 1135 \\ 
+  1776 & Vitamin A 200,000 IU caps in stock the beginning of the Month & 1130 \\ 
+  1794 & Vitamin A Supplemental  Above1 Year(200,000IU) & 1123 \\ 
+  1104 & Normal Deliveries & 1118 \\ 
+  917 & Live birth & 1103 \\ 
+  170 & Anaemia cases & 1101 \\ 
+  1778 & Vitamin A 200,000 IU caps remaining at the end Month & 1101 \\ 
+  1705 & Underweight  0-11Months & 1078 \\ 
+  294 & Babies discharge Alive & 1077 \\ 
+  920 & LLITNs distributed to ANC clients  & 1062 \\ 
+  1547 & Sexually Transmitted Infections & 1044 \\ 
+  1597 & TB cases detected & 1041 \\ 
+  1795 & Vitamin A Supplemental  Lactating Mothers (200,000IU) & 1016 \\ 
+  832 & Injectables & 1013 \\ 
+  1751 & Vaginal delivery includes  normal and assisted delivery & 1009 \\ 
+  816 & Implants (1-Rod), FP & 1003 \\ 
+  842 & Inpatient Discharges & 1001 \\ 
+  1665 & Total Tested HIV & 1001 \\ 
+  1265 & OPV doses received with the Month & 999 \\ 
+  818 & Implants insertion & 996 \\ 
+  661 & First Testing HIV & 981 \\ 
+  838 & Inpatient Admissions & 971 \\ 
+  477 & Condoms Distributed & 963 \\ 
+  305 & BCG doses received within the Month & 956 \\ 
+  195 & Antenatal Testing for HIV & 936 \\ 
+  183 & ANC clients tested for syphilis & 932 \\ 
+  557 & DPT+HIB+HEP B doses received within the Month & 927 \\ 
+  783 & Hypertension & 921 \\ 
+  860 & Intestinal worms & 917 \\ 
+  1373 & Pneumococal doses received within the Month & 916 \\ 
+  1670 & Total Women Tested (PMTCT) & 911 \\ 
+  944 & Male Condom  & 901 \\ 
+  1008 & Measles doses received within the Month & 879 \\ 
+  452 & Combined oral contraceptive Pills & 872 \\ 
+  364 & Children dewormed at least once in a year & 870 \\ 
+  1573 & Static Testing HIV (Health Facility) & 863 \\ 
+  1707 & Underweight 12-35Months & 863 \\ 
+  836 & Inpatient Actual Physical Beds  & 856 \\ 
+  1074 & New patients enrolled whin the month for HIV care all others & 853 \\ 
+  511 & Date when report was received from facility & 823 \\ 
+  1483 & Repeat Testing HIV & 809 \\ 
+  1628 & Tetanus Toxiod doses received  within  the Month & 793 \\ 
+  1667 & Total Weight 0-$<$6Months & 789 \\ 
+  1669 & Total Weight 6-23Months & 779 \\ 
+  1453 & Rapid Diagnostic Tests & 773 \\ 
+  1111 & Normal Weight for Age  0-$<$6 months & 753 \\ 
+  1113 & Normal Weight for Age  6-23 months & 748 \\ 
+  1419 & Prescriptions Issued - Common Drugs  & 734 \\ 
+  1554 & Smear negative TB & 732 \\ 
+  1769 & Vitamin A 100,000 IU caps in stock the beginning of the Month & 731 \\ 
+  919 & LLITN distributed to children $<$1 year & 728 \\ 
+  1771 & Vitamin A 100,000 IU caps remaining at the end Month & 723 \\ 
+  309 & Beneficiaries at beginning of month & 719 \\ 
+  1418 & Prescriptions Issued - Antibiotics  & 713 \\ 
+  817 & Implants (2-Rod), FP & 693 \\ 
+  1557 & Smear positive TB & 690 \\ 
+  1596 & TB and Leprosy attendance & 676 \\ 
+  893 & IUCDs, FP & 674 \\ 
+  1427 & Progestin only pills, FP & 669 \\ 
+  1455 & Rapid HIV 1+2 Test 1 - Screening & 657 \\ 
+  627 & Faltering weight & 649 \\ 
+  815 & Implants (1-Rod) & 645 \\ 
+  1616 & TB patients who have completed treatment & 631 \\ 
+  1615 & TB Patients tested for HIV & 626 \\ 
+  928 & Malaria in pregnant woman & 617 \\ 
+  1044 & Mother counselled on infant feeding options & 617 \\ 
+  1717 & Urethral discharge initial visit & 614 \\ 
+  1668 & Total Weight 24-59 Months & 610 \\ 
+  967 & Maternity Women Counselled & 596 \\ 
+  902 & Laboratory routine test  & 593 \\ 
+  1417 & Prescriptions  Issued - Drugs for Children & 579 \\ 
+  1611 & TB patients HIV+ve & 579 \\ 
+  891 & IUCD insertion & 575 \\ 
+  1658 & Total received HIV+ results & 575 \\ 
+  1112 & Normal Weight for Age  24-59 Months & 564 \\ 
+  1351 & Persons enrolled and eligible for ART but not started on ART & 557 \\ 
+  603 & Exclusive breastfeeding 0-$<$6 months & 554 \\ 
+  1107 & Normal Height for Age  6-23 months & 552 \\ 
+  1426 & Progestin only Pills & 547 \\ 
+  1105 & Normal Height for Age  0-$<$6 months & 544 \\ 
+  571 & Dysentery & 543 \\ 
+  1086 & New Visits of 0-59 Month Attending CWC & 537 \\ 
+  753 & HIV Currently in Care - above 15yrs Female  & 531 \\ 
+  971 & Maternity Women Tested for HIV & 531 \\ 
+  1213 & On CTX  15 y and Older Male & 530 \\ 
+  940 & Male above 15yrs Currently in Care & 529 \\ 
+  1214 & On CTX  15 yrs and Older Female & 526 \\ 
+  754 & HIV Currently in Care - Total & 525 \\ 
+  1649 & Total on CTX & 524 \\ 
+  844 & Inpatient Occupied Bed Days -NON-NHIF Members & 520 \\ 
+  427 & CHIS Total pregnant women & 518 \\ 
+  586 & Emergency Contraceptive pills, FP & 517 \\ 
+  1456 & Rapid HIV 1+2 Test 2 - Confirmatory & 517 \\ 
+  373 & CHIS Births & 508 \\ 
+  495 & Couples Testing & 505 \\ 
+  1381 & Poisoning & 503 \\ 
+  1754 & VCT clients HIV+ve & 500 \\ 
+  501 & Currently on ART - Female above 15 years & 492 \\ 
+  394 & CHIS Household without hand washing facilities & 491 \\ 
+  503 & Currently on ART - Male above 15 years & 491 \\ 
+  939 & Male above 15yrs  Revisit on Care & 488 \\ 
+  1640 & Total currently on ART & 488 \\ 
+  180 & ANC clients HIV+ve & 487 \\ 
+  403 & CHIS Number of  CHWs in the community unit expected to Report & 487 \\ 
+  632 & Female above 15yrs  Revisit on Care  & 487 \\ 
+  634 & Female above 15yrs Ever on ART & 487 \\ 
+  391 & CHIS Household not treating water & 486 \\ 
+  936 & Male  above 15yrs Ever on ART & 485 \\ 
+  1078 & New patients enrolled whin the month for HIV care through VCT & 484 \\ 
+  404 & CHIS Number of  CHWs Reported & 481 \\ 
+  1659 & Total Revisit on ART & 481 \\ 
+  1608 & TB HIV patient on CPT & 480 \\ 
+  635 & Female above 25yrs Receiving HIV + Results  & 479 \\ 
+  938 & Male 15 years and older screened for TB & 478 \\ 
+  1642 & Total Ever on ART & 478 \\ 
+  1050 & Mumps & 476 \\ 
+  1660 & Total Screened for TB & 476 \\ 
+  392 & CHIS Household not using LLITNs & 473 \\ 
+  419 & CHIS Pregnant women referred & 471 \\ 
+  631 & Female 15 years and older screened for TB & 471 \\ 
+  372 & CHIS All cases referred & 469 \\ 
+  393 & CHIS Household without functional latrines & 467 \\ 
+  839 & Inpatient Authorised Beds & 465 \\ 
+  140 & Abortion & 464 \\ 
+  953 & Malnutrition & 459 \\ 
+  1061 & New admission cases & 455 \\ 
+  1218 & OP: Beneficiaries at the begining of the Month & 454 \\ 
+  790 & IDSR Malaria & 453 \\ 
+  1106 & Normal Height for Age  24-59 Months & 447 \\ 
+  1216 & On CTX Below 15 yrs Male & 446 \\ 
+  1578 & STI Attendance & 443 \\ 
+  752 & HIV Care visits Females (18 years and older) & 440 \\ 
+  497 & CSB/UNIMIX (kg) & 438 \\ 
+  1215 & On CTX Below 15 yrs Female & 438 \\ 
+  633 & Female above 15yrs Enrolled in Care  & 437 \\ 
+  947 & Male under 15yrs  Ever on ART & 435 \\ 
+  181 & ANC clients issued with preventive ARVs  & 434 \\ 
+  587 & Emergency Pill & 434 \\ 
+  751 & HIV Care visit Scheduled & 434 \\ 
+  949 & Male under 15yrs Currently in Care & 433 \\ 
+  1647 & Total HIV Care visit & 433 \\ 
+  640 & Female under 15yrs Currently in Care & 430 \\ 
+  528 & Diabetes & 427 \\ 
+  1641 & Total Enrolled in Care & 427 \\ 
+  1338 & Patient started on ARVs by WHO stage 2 & 426 \\ 
+  593 & Epilepsy & 423 \\ 
+  1614 & TB patients tested for HIV & 423 \\ 
+  412 & CHIS People who do not know their HIV status & 420 \\ 
+  1337 & Patient started on ARVs by WHO stage 1 & 420 \\ 
+  504 & Currently on ART - Male below 15 years & 419 \\ 
+  605 & Extra-Pulmonary TB patients & 418 \\ 
+  1436 & Provided with condoms & 418 \\ 
+  943 & Male Below 15 years screened for TB & 416 \\ 
+  502 & Currently on ART - Female Below 15 years & 415 \\ 
+  890 & IUCD Copper T & 412 \\ 
+  444 & Clients given IPT 2nd Dose & 411 \\ 
+  1207 & Oil (lit) & 409 \\ 
+  1021 & Mental Disorders & 407 \\ 
+  335 & Brucellosis & 406 \\ 
+  948 & Male under 15yrs  Revisit on Care  & 406 \\ 
+  443 & Clients given IPT 1st Dose & 404 \\ 
+  542 & Disease of Puerperium and Childbirth & 403 \\ 
+  639 & Female under 15yrs  Revisit on Care  & 403 \\ 
+  642 & Female under 15yrs Ever on ART & 401 \\ 
+  1656 & Total Positive (PMTCT) & 400 \\ 
+  638 & Female under 15 years screened for TB & 393 \\ 
+  1661 & Total Starting on ART & 393 \\ 
+  387 & CHIS Elderly persons who had routine check ups & 389 \\ 
+  1339 & Patient started on ARVs by WHO stage 3 & 385 \\ 
+  942 & Male above 25yrs Receiving HIV + Results  & 383 \\ 
+  1035 & Modern contraceptive methods & 383 \\ 
+  1425 & Primary schools & 383 \\ 
+  185 & ANC Partners Counselled & 380 \\ 
+  637 & Female Condoms, FP & 377 \\ 
+  750 & HIV Care visit- unscheduled & 377 \\ 
+  418 & CHIS Pregnant mothers who did not attended at least 4ANC visits & 375 \\ 
+  576 & ECD schools & 375 \\ 
+  1709 & Underweight 36-59Months & 375 \\ 
+  1710 & Underweight 6-23 months & 375 \\ 
+  428 & CHIS Women 15-49 years provided with FP commodities & 374 \\ 
+  1515 & RUTF (Sachets) [Stock] & 374 \\ 
+  935 & Male  above 15yrs \& Older Enrolled in Care  & 367 \\ 
+  187 & ANC Partners Tested & 360 \\ 
+  1447 & Quinine (200mg) Tabs  & 356 \\ 
+  378 & CHIS Children under one not fully immunized & 355 \\ 
+  417 & CHIS Pregnancies under 18 years & 352 \\ 
+  513 & De-wormed 12-59 Months & 352 \\ 
+  163 & All registered TB cases & 351 \\ 
+  629 & Female  above 15yrs Starting on ART  & 351 \\ 
+  958 & Marasmus & 351 \\ 
+  1475 & Referrals in & 350 \\ 
+  1217 & On Original 1st Line at 12 months Survival and Retention on ART  & 348 \\ 
+  380 & CHIS Chronic illness or cough for more than 2 weeks referred & 346 \\ 
+  426 & CHIS Total Other deaths & 346 \\ 
+  686 & Genital ulcer disease initial visit & 344 \\ 
+  25 & 2. Number tested for HIV & 341 \\ 
+  827 & Infants issued with preventive ARVS & 338 \\ 
+  396 & CHIS Households without the package of IEC materials & 333 \\ 
+  1651 & Total on therapy at 12 months & 333 \\ 
+  375 & CHIS Children under 6 Months not exclusively brestfed & 331 \\ 
+  819 & Implants Removal & 330 \\ 
+  1489 & Retail shops & 327 \\ 
+  386 & CHIS Diarrhea cases managed & 326 \\ 
+  1411 & Pregnant women currently on ARVs & 321 \\ 
+  397 & CHIS Immunization Defaulters traced & 319 \\ 
+  201 & ART Net Cohort at 12 months Survival and Retention on ART  & 317 \\ 
+  709 & Health Institutions & 316 \\ 
+  1420 & Prescriptions Issued - Special drugs  & 316 \\ 
+  965 & Maternity Referrals & 314 \\ 
+  390 & CHIS Fever cases referred & 311 \\ 
+  534 & Discharge Cured & 311 \\ 
+  1323 & P.O.P Application & 307 \\ 
+  1223 & OP: New admission cases & 305 \\ 
+  384 & CHIS Deliveries by unskilled attendants & 300 \\ 
+  87 & 4. All New PTB+ & 299 \\ 
+  400 & CHIS Meetings with CHCs & 298 \\ 
+  1077 & New patients enrolled whin the month for HIV care through PMTCT & 297 \\ 
+  377 & CHIS Children under five years not supplimented with Vit A & 294 \\ 
+  476 & Concordant Couples Receiving Results (Couples Only) & 293 \\ 
+  1567 & Springs & 293 \\ 
+  398 & CHIS Injuries and wounds managed & 291 \\ 
+  630 & Female 15-24yrs  Receiving HIV + Results  & 291 \\ 
+  1654 & Total PMTCT prophylaxis & 291 \\ 
+  99 & 5. Number tested for HIV (PTB+) & 289 \\ 
+  402 & CHIS Newborns referred & 289 \\ 
+  395 & CHIS Household without staple food & 288 \\ 
+  574 & Eating houses & 283 \\ 
+  1527 & Secondary schools & 282 \\ 
+  636 & Female Condom  & 281 \\ 
+  1693 & Tuberculosis & 279 \\ 
+  1648 & Total Infants Issued Prophylaxis & 278 \\ 
+  1237 & OPD Casualty attendance & 277 \\ 
+  1462 & Re-treatment TB patients & 277 \\ 
+  941 & Male above 15yrs Starting on ART  & 272 \\ 
+  1312 & Outpatient records cards Issued & 271 \\ 
+  1541 & Sexual Assault & 271 \\ 
+  1777 & Vitamin A 200,000 IU caps received within  the Month & 271 \\ 
+  1646 & Total HEI tested by 12 months & 270 \\ 
+  194 & Antenatal Positive to HIV Test  & 269 \\ 
+  575 & EBF (6 months) Infant Feeding & 269 \\ 
+  374 & CHIS Children not de-wormed & 265 \\ 
+  26 & 2. Results at 5 months  & 264 \\ 
+  339 & Butcheries & 262 \\ 
+  1045 & Mothers HIV+ve referred for follow up & 262 \\ 
+  899 & Known positive status (at entry into ANC) & 261 \\ 
+  820 & In Commecial Food Premises.  & 257 \\ 
+  3 & 1. Results at 2 months  & 256 \\ 
+  420 & CHIS School drop out female & 255 \\ 
+  889 & Issued in ANC (Infant ARV prophylaxis) & 254 \\ 
+  903 & Laboratory special test  & 253 \\ 
+  76 & 3. Results at 8 months & 251 \\ 
+  1644 & Total Exposed aged 6 months & 244 \\ 
+  1523 & Schools having adequate sanitation facilities & 240 \\ 
+  1757 & VCT Couples Counselled & 240 \\ 
+  1758 & VCT Couples Tested & 239 \\ 
+  421 & CHIS School drop out male & 238 \\ 
+  567 & DTC Inpatient Tested & 237 \\ 
+  829 & Infants tested for HIV at 6 wks & 237 \\ 
+  946 & Male partners tested -( ANC/L\&D) & 237 \\ 
+  385 & CHIS Dialogue days & 233 \\ 
+  1514 & RUSF (Sachets) & 233 \\ 
+  1706 & Underweight 0-$<$6 months & 233 \\ 
+  208 & Assessed Eligibility in ANC & 232 \\ 
+  758 & HIV Exposed Infant (within 2 months) on Cotrimoxazole Prophylaxis  & 232 \\ 
+  1454 & Rapid HIV 1+ 2 Test 3 - Tiebreaker & 232 \\ 
+  565 & DTC Inpatient Counselled & 231 \\ 
+  767 & Hospital Admissions (Female) & 231 \\ 
+  519 & Deliveries from HIV+ve Women & 230 \\ 
+  100 & 5. Results at 8 months HIV- & 229 \\ 
+  1219 & OP: Discharge Cured & 229 \\ 
+  401 & CHIS Moderate malnutrition cases referred & 228 \\ 
+  1505 & Roof catchments & 228 \\ 
+  628 & Family planning uptake at PAC & 227 \\ 
+  1324 & Paediatric Ward & 227 \\ 
+  521 & Dental clinic attendance others & 226 \\ 
+  915 & Learning Institutions.  & 226 \\ 
+  1063 & New AIDS Cases & 223 \\ 
+  1348 & PCR (within 2 months) Infant Testing (Initial test only) & 215 \\ 
+  1700 & Under 1yr Currently in Care & 211 \\ 
+  171 & Anaemia MCH & 210 \\ 
+  1791 & Vitamin A at 6 months(100,000 IU) & 210 \\ 
+  1708 & Underweight 24-59 Months & 209 \\ 
+  210 & Assessed for eligibility in 1st ANC - WHO Staging done & 208 \\ 
+  381 & CHIS Community action days & 208 \\ 
+  19 & 17. Results at 2 months  & 207 \\ 
+  20 & 18. Results at 8 months & 207 \\ 
+  908 & Labour and Delivery Testing for HIV  & 204 \\ 
+  1607 & TB Defaulters & 204 \\ 
+  300 & Bars and Restaurants & 203 \\ 
+  1603 & TB cases on treatment at the end of the quarter & 203 \\ 
+  127 & 7. All New PTB- & 202 \\ 
+  1548 & SFP Average Length of Stay in Days -Nutrition & 201 \\ 
+  206 & Artesunate Injection & 200 \\ 
+  757 & HIV Exposed Infant (Eligible for CTX 2 months) & 199 \\ 
+  1396 & Posho Mills & 199 \\ 
+  681 & Functioning (VHC, CHW and Kits) community health units & 198 \\ 
+  606 & Eye Clinic Attendance & 196 \\ 
+  892 & IUCD Removals & 196 \\ 
+  133 & 8. Number tested  for HIV (Smear - Cases) & 195 \\ 
+  1084 & New TB cases referred BY & 194 \\ 
+  964 & Maternity Infants administered with preventive ARVs & 193 \\ 
+  1711 & Underweight babies $<$2500gms & 193 \\ 
+  1292 & OT: Sessions & 192 \\ 
+  862 & Intimation Notices Served & 191 \\ 
+  966 & Maternity Ward & 190 \\ 
+  1288 & OT- Outpatient Old Cases & 190 \\ 
+  74 & 3. Number HIV + & 188 \\ 
+  1073 & New Patient Files issued & 188 \\ 
+  1079 & New patients enrolled whitin the month for HIV care through TB & 188 \\ 
+  1287 & OT- Outpatient New Cases & 186 \\ 
+  1291 & OT: Re-attendance & 182 \\ 
+  861 & Intimation Notices Complied & 176 \\ 
+  934 & Malaria Rapid Diagnostic Test (RDT) & 176 \\ 
+  1558 & Smear positive TB patients cured (smear negative) & 175 \\ 
+  1513 & Rural & 174 \\ 
+  1605 & TB cases referred TO & 174 \\ 
+  1643 & Total Exposed 12 months & 171 \\ 
+  1005 & Measles 2(at 1 1/2 - 2 years)  & 170 \\ 
+  1428 & Prophylaxis - (AZT+SdNVP)  & 169 \\ 
+  158 & All others FP & 168 \\ 
+  471 & Community Health Workers trained with Kits & 168 \\ 
+  523 & Dental Extractions Attendance & 168 \\ 
+  1430 & Prophylaxis – HAART & 168 \\ 
+  1585 & Stunting 6-23 months & 168 \\ 
+  1506 & Rotavirus 1 doses Administered & 166 \\ 
+  1290 & OT: First attendance & 164 \\ 
+  900 & Kwashiorkor & 163 \\ 
+  1298 & Other Eye Cases & 162 \\ 
+  355 & Chalazion / Stye & 161 \\ 
+  1790 & Vitamin A at 1years(200,000IU) & 160 \\ 
+  155 & All other special clinics attendance & 157 \\ 
+  795 & IDSR Tested for malaria  & 157 \\ 
+  1533 & Serology (from 9 to 12 months) Infant Testing (Initial test only) & 157 \\ 
+  1579 & Still birth & 157 \\ 
+  1676 & Trained Village Health Committees (model VHC) & 157 \\ 
+  165 & Allergic Conjunctivitis & 156 \\ 
+  769 & Hospital Admissions (Male) & 155 \\ 
+  493 & Council Markets  & 154 \\ 
+  1622 & Tertiary institutions & 154 \\ 
+  1018 & Medical ward Female & 153 \\ 
+  105 & 54. Results at 2 months & 151 \\ 
+  106 & 55. Result at 8th months & 151 \\ 
+  591 & ENT Clinic Attendance & 151 \\ 
+  841 & Inpatient Deaths & 151 \\ 
+  27 & 20. Results at 8 months HIV- & 150 \\ 
+  1307 & Other Refractive Errors & 150 \\ 
+  1770 & Vitamin A 100,000 IU caps received within  the Month & 150 \\ 
+  1360 & Piped schemes & 148 \\ 
+  970 & Maternity Women issued with preventive ARVs & 147 \\ 
+  1718 & Urethral discharge Re-attendance & 147 \\ 
+  445 & Clients with Hb  $<$7g/dl & 146 \\ 
+  999 & Measles & 146 \\ 
+  1335 & Patient currently on Fluconazole & 146 \\ 
+  175 & ANC Client given Iron & 145 \\ 
+  1502 & Rivers & 144 \\ 
+  1019 & Medical ward Male & 142 \\ 
+  930 & Malaria inpatient cases & 141 \\ 
+  1033 & Minor surgeries excluding circumcision & 141 \\ 
+  5 & 10. New EPTB & 140 \\ 
+  434 & Circumcision & 139 \\ 
+  147 & Admissions for children under 1 year & 138 \\ 
+  541 & Discordant Couples Receiving Results (Couples Only) & 137 \\ 
+  1056 & Negative Result for RDT test & 137 \\ 
+  1183 & Nursery/Neonatal Ward & 137 \\ 
+  834 & Injury & 136 \\ 
+  937 & Male 15-24yrs  Receiving HIV + Results  & 136 \\ 
+  822 & In Learning Institutions & 135 \\ 
+  209 & Assessed for eligibility in 1st  ANC - CD4 & 134 \\ 
+  1551 & Slaughter slabs & 133 \\ 
+  1592 & Surgical Female Ward & 133 \\ 
+  422 & CHIS Severe malnutrition cases referred & 132 \\ 
+  1311 & OTP Average Length of Stay in Days -Nutrition & 132 \\ 
+  1785 & Vitamin A at 1 1/2 years(200,000 IU) & 132 \\ 
+  1443 & Purulent Conjunctivitis & 131 \\ 
+  950 & Male under 15yrs Enrolled in Care  & 129 \\ 
+  1258 & Ophthalmology Cataract & 129 \\ 
+  8 & 11. Number Tested for HIV (New EPTB) & 128 \\ 
+  794 & IDSR Positive malaria & 128 \\ 
+  823 & Infant breastfed within 1 hour after delivery & 128 \\ 
+  1283 & OT- D.Dev. Milestone Old Case & 128 \\ 
+  641 & Female under 15yrs Enrolled in Care  & 127 \\ 
+  174 & ANC Client given folate & 126 \\ 
+  828 & Infants tested for HIV after 3 months & 126 \\ 
+  857 & Inpatient Well Persons Days & 126 \\ 
+  968 & Maternity Women found HIV+ve & 126 \\ 
+  500 & Currently on ART - below 1 year & 125 \\ 
+  162 & All others on post exposure prophylaxis & 124 \\ 
+  951 & Male under 15yrs Receiving HIV + Results  & 124 \\ 
+  1704 & Under GFD Programme & 123 \\ 
+  1583 & Stunting 0-$<$6 months & 122 \\ 
+  1595 & Syphilis Serology & 122 \\ 
+  21 & 19. Results at 8 months -HIV + & 120 \\ 
+  352 & Celebral palsy Old Cases & 120 \\ 
+  1593 & Surgical Male Ward & 120 \\ 
+  1413 & Pregnant women Starting on ART  & 119 \\ 
+  1525 & Screened for cervical cancer (females 18 years and older) & 119 \\ 
+  1015 & Medical Examinations done except P3 & 118 \\ 
+  1406 & Pre-term babies & 118 \\ 
+  1507 & Rotavirus 2 doses Administered & 118 \\ 
+  67 & 23. Number on CPT & 117 \\ 
+  648 & FIF-Cash Collection & 117 \\ 
+  1403 & Postnatal (within 72hrs) Testing for HIV & 117 \\ 
+  718 & HEI eligible HEI  tested with 1st AB test and results available & 116 \\ 
+  721 & HEI Infants who received ARVs at 0‐6 weeks  & 116 \\ 
+  722 & HEI Mothers who received PMTCT ARVs   & 116 \\ 
+  725 & HEI tested with PCR and results available between 0 and 9  months & 116 \\ 
+  726 & HEI tested with PCR at age 6‐8 weeks and results available & 116 \\ 
+  728 & HEI who were Exclusively Breastfed at 6 months among HEI   assessed & 116 \\ 
+  733 & HEI:  Identified as positive between 0 and 9 months & 116 \\ 
+  1623 & Test Kit- PITC & 116 \\ 
+  676 & Fully Immunized Child(FIC)above 2 years & 115 \\ 
+  724 & HEI tested positive by first PCR at age 6‐8 weeks & 115 \\ 
+  730 & HEI:  Active in follow‐up  & 115 \\ 
+  731 & HEI:  Died between 0 and 9 months & 115 \\ 
+  739 & HEI: Missing 9 month follow‐up visit & 115 \\ 
+  741 & HEI: Transferred out between 0 and 9 months & 115 \\ 
+  729 & HEI:  AB negative at 18 months & 114 \\ 
+  737 & HEI: Died between 0 and 18 months & 114 \\ 
+  723 & HEI tested by AB test at $>$= 18 months and results are available & 113 \\ 
+  732 & HEI:  Identified as positive between 0 and 18 months & 113 \\ 
+  736 & HEI: Active at 18 months but no AB test done & 113 \\ 
+  738 & HEI: Lost to Follow‐Up between 0 and 18 months & 113 \\ 
+  740 & HEI: Transferred out between 0 and 18 months & 113 \\ 
+  837 & Inpatient Actual Physical Cots & 113 \\ 
+  1509 & Rotavirus doses remaining at the end Month & 113 \\ 
+  1572 & Started on ART during ANC  & 113 \\ 
+  1606 & TB deaths & 113 \\ 
+  719 & HEI HIV positive infants identified between 0 and 9 months linked  to CCC & 112 \\ 
+  720 & HEI HIV positive infants linked to CCC among those testing positive & 112 \\ 
+  727 & HEI who tested AB positive with confirmatory PCR and results  available & 111 \\ 
+  1313 & Outreach Testing HIV & 111 \\ 
+  1624 & Test Kit- PMTCT & 110 \\ 
+  1197 & Obstructed Labour & 108 \\ 
+  1601 & Tb cases on Dots by House hold, family member, friends & 108 \\ 
+  643 & Female under 15yrs Receiving HIV + Results  & 107 \\ 
+  671 & Fresh Still Birth & 107 \\ 
+  840 & Inpatient Authorised Cots & 107 \\ 
+  969 & Maternity Women Initiated with Cotrimoxazole & 107 \\ 
+  1546 & Sexual assult on Post exposure prophylaxis  & 107 \\ 
+  31 & 22. Number on ART & 106 \\ 
+  88 & 4. Results at 8 months -HIV + & 105 \\ 
+  135 & 8.Number on CPT & 105 \\ 
+  177 & ANC Client Supplemented with Combined  Iron and Folete & 105 \\ 
+  1750 & Uveitis & 105 \\ 
+  108 & 57. Results at 8 months HIV- & 104 \\ 
+  299 & Barazas & 104 \\ 
+  506 & Cycle Beads, FP & 104 \\ 
+  1540 & Severely underweight 6-23 months & 103 \\ 
+  496 & Crepe bandage aplication & 101 \\ 
+  96 & 47. Results at 2 months  & 100 \\ 
+  97 & 48. Results at 8 months & 100 \\ 
+  1347 & PCR (from3 to 8 months) Infant Testing (Initial test only) & 100 \\ 
+  313 & BF (at 12 months) Infant Feeding &  99 \\ 
+  1282 & OT- D.Dev. Milestone New cases &  99 \\ 
+  1508 & Rotavirus doses in stock at the beginning of the Month &  99 \\ 
+  382 & CHIS Deaths 1- $<$ 5year &  98 \\ 
+  490 & Corneal Ulcer &  98 \\ 
+  512 & Days facility did NOT have ANY of the AL Packs: &  98 \\ 
+  625 & Factories &  98 \\ 
+  766 & HMSF/HSSF &  98 \\ 
+  796 & IDSR Typhoid &  98 \\ 
+  1256 & Ophthalmia Neonatorum initial visit &  98 \\ 
+  383 & CHIS Deaths under 1 year &  97 \\ 
+  1114 & Not BF (12 months) Infant Feeding  &  97 \\ 
+  1775 & Vitamin A 2 years to 5 years(200,000 IU) &  97 \\ 
+  611 & F-75 ( Sachets)  &  96 \\ 
+  1699 & Under 1yr  Revisit on Care  &  96 \\ 
+  328 & Boreholes &  95 \\ 
+  524 & Dental Fillings Attendance &  95 \\ 
+  644 & Female under 15yrs Starting on ART  &  95 \\ 
+  1405 & PPH (Post Partum Haemorrage) &  94 \\ 
+  1399 & Positive Result for RDT test &  93 \\ 
+  129 & 7. Number on ART &  92 \\ 
+  598 & Estimated Deliveries &  92 \\ 
+  1803 & Women of childbearing age (15–49yrs) &  92 \\ 
+  952 & Male under 15yrs Starting on ART  &  91 \\ 
+  1393 & Population under 1 year &  91 \\ 
+  1395 & Population under 5 years &  91 \\ 
+  1602 & TB cases on MN &  91 \\ 
+  1655 & Total Population &  91 \\ 
+  600 & Estimated live births &  90 \\ 
+  610 & F-100 ( Sachets) &  90 \\ 
+  1394 & Population under 15 years &  90 \\ 
+  1470 & Reduction of Dislocations &  90 \\ 
+  1701 & Under 1yr Enrolled in Care &  90 \\ 
+  1385 & Population 15-24 years &  89 \\ 
+  1386 & Population 25-59 years &  89 \\ 
+  1392 & Population over 60 years &  89 \\ 
+  1549 & Shallow wells &  89 \\ 
+  1666 & Total type of Exposure &  88 \\ 
+  649 & FIF-Exemptions &  87 \\ 
+  1179 & Number of TB Patients with BMI $<$18.5 &  87 \\ 
+  1609 & TB Patient  Starting on ART  &  87 \\ 
+  222 & AWP Children under 1 year of age fully immunized  &  86 \\ 
+  1103 & Normal &  86 \\ 
+  136 & 9. Number tested HIV+ ( Smear - Cases) &  84 \\ 
+  6 & 10. Results at 5 months &  83 \\ 
+  285 & AWP Pregnant women attending at least 4 ANC visits &  83 \\ 
+  1653 & Total PEP &  83 \\ 
+  566 & DTC Inpatient HIV+ve &  82 \\ 
+  1389 & Population female &  82 \\ 
+  101 & 50. Results at 8 months HIV- &  81 \\ 
+  226 & AWP Clients tested for HIV in the Health Facility &  81 \\ 
+  351 & Celebral palsy New Cases &  81 \\ 
+  765 & HIV+ TB cases on Cotrimoxazol preventive therapy &  81 \\ 
+  1391 & Population male &  81 \\ 
+  1437 & Pseudophakia  &  81 \\ 
+  1584 & Stunting 24-59 Months &  80 \\ 
+  223 & AWP Children under 5 years attending Child Welfare Clinics for growth monitoring (new cases) &  79 \\ 
+  292 & AWP Women of reproductive age (WRA) receiving family planning (FP) commodities &  79 \\ 
+  1016 & Medical Reports Issued (incl. P3, compensation, insurance) &  79 \\ 
+  1566 & Splints &  79 \\ 
+  1780 & Vitamin A 50,000 IU caps in stock the beginning of the Month &  79 \\ 
+  113 & 6. Number tested HIV + (for Smear + Cases) &  78 \\ 
+  137 & 9. Results at 2 months  &  78 \\ 
+  264 & AWP Number of new Outpatients (male) &  78 \\ 
+  315 & Bilharzia &  78 \\ 
+  957 & Manual Vacuum Aspiration &  78 \\ 
+  117 & 6570109 Bank Account Balance &  77 \\ 
+  121 & 66. Results at 2 months &  77 \\ 
+  330 & Breach Delivery &  77 \\ 
+  1248 & OPD Plaster of Paris (POP) Done &  77 \\ 
+  1518 & Sanitation and waste disposal Medical waste disposal means(incinerator, compost pit) &  77 \\ 
+  144 & Activities of daily living training &  76 \\ 
+  527 & Determine  &  76 \\ 
+  743 & Hemiplegia Old Cases &  76 \\ 
+  882 & IP: New admission cases &  76 \\ 
+  925 & Macerated still Birth &  76 \\ 
+  1340 & Patient started on ARVs by WHO stage 4 &  76 \\ 
+  107 & 56. Results at 8 months HIV + &  75 \\ 
+  110 & 59. Number on CPT &  75 \\ 
+  118 & 6570109 Bank Account Balance  &  75 \\ 
+  182 & ANC clients Syphilis +ve &  75 \\ 
+  254 & AWP Number of Households  not using  toilets/latrines  &  75 \\ 
+  263 & AWP Number of new Outpatients (Female) &  75 \\ 
+  483 & Conjunctival Growths &  75 \\ 
+  491 & Corneal/Conjunctiva FB &  74 \\ 
+  2 &  Rota virus doses received within the Month &  73 \\ 
+  122 & 67. Results at 8 months &  73 \\ 
+  708 & Health facility without tracer drugs for more than 14 days &  73 \\ 
+  835 & Inpatient Abscondees &  73 \\ 
+  878 & IP: Discharge Cured &  73 \\ 
+  1238 & OPD Consultation rooms &  73 \\ 
+  90 & 41. Results at 5 months &  72 \\ 
+  694 & Gynacology Ward &  72 \\ 
+  764 & HIV+ TB cases on ART &  72 \\ 
+  1212 & On alternative 1st Line at 12 months Survival and Retention on ART  &  72 \\ 
+  1363 & Plain X-Rays without enhancement &  72 \\ 
+  1438 & Psychiatry Attendance &  72 \\ 
+  95 & 46. Number on ART &  71 \\ 
+  255 & AWP Number of Households reached with health promotion messages &  71 \\ 
+  310 & Beneficiaries who Received CSB/Unimix &  71 \\ 
+  312 & Beneficiaries who Received veg Oil &  71 \\ 
+  877 & IP: Beneficiaries at the begining of the month &  71 \\ 
+  1759 & VCT Couples with discordant &  71 \\ 
+  89 & 40. Results at 2 months &  70 \\ 
+  480 & Congenital Anomalies &  70 \\ 
+  1501 & Ricketts Old Cases &  70 \\ 
+  287 & AWP Pregnant Women receiving TT2 plus  immunization &  69 \\ 
+  599 & Estimated Emergency obstetric complications &  69 \\ 
+  1031 & Microscopy:- Patients under 5 years &  69 \\ 
+  1500 & Ricketts New Cases &  69 \\ 
+  277 & AWP Number of school age Children de-wormed  &  68 \\ 
+  536 & Discharge Defaulters &  68 \\ 
+  601 & Estimated Number of Pregnant Women &  68 \\ 
+  1332 & Partners HIV Status Not Done &  68 \\ 
+  245 & AWP Number of Community dialogue days held &  67 \\ 
+  975 & MCH/FP unit Immunization services room &  67 \\ 
+  1029 & Microscopy:- Patients aged 5-14 yrs &  67 \\ 
+  1221 & OP: Discharge Defaulters &  67 \\ 
+  116 & 60. Number on ART &  66 \\ 
+  220 & AWP Annual performance review meeting held &  66 \\ 
+  516 & Delayed developmental milestones (ddm) Old Cases &  66 \\ 
+  1062 & New Adult Patient pack ( CAT I \&II) &  66 \\ 
+  1099 & No. of rape survivors &  66 \\ 
+  1253 & OPD Waiting room &  66 \\ 
+  1346 & PCR (from 9 to 12 months) Infant Testing (Initial test only) &  66 \\ 
+  1025 & MF (6 months) Infant Feeding  &  65 \\ 
+  1055 & Negative Result &  65 \\ 
+  17 & 15. Number on ART &  64 \\ 
+  288 & AWP Quarterly Facility Health Committee meetings held &  64 \\ 
+  311 & Beneficiaries who Received RUSF Sachet &  64 \\ 
+  1094 & No. given trauma counseling  &  64 \\ 
+  1204 & Occupational Therapy  non-private &  64 \\ 
+  1415 & Presbyopia &  64 \\ 
+  1537 & Severely stunted for 6-23 months &  64 \\ 
+  821 & In Health Institutions  &  63 \\ 
+  826 & Infants intiated with Cotrimoxazole &  63 \\ 
+  1538 & Severely underweight 0-$<$6 months &  63 \\ 
+  221 & AWP Children under 1 distributed with Long Lasting Insecticide Treated Nets (LLITNs) in endemic  and epidemic districts &  62 \\ 
+  233 & AWP HIV+ pregnant mothers receiving preventive ARV’s to reduce risk of mother to child transmission (PMTCT) &  62 \\ 
+  665 & Food Wholesales &  62 \\ 
+  1229 & OP: Under GFD Programme &  62 \\ 
+  1322 & Overweight  6-23 months &  62 \\ 
+  1460 & RDT:-Patients under 5 years &  62 \\ 
+  1612 & TB patients on NC &  62 \\ 
+  1663 & Total survivors seen &  62 \\ 
+  256 & AWP Number of Households without hand washing facilities &  61 \\ 
+  432 & Circumcised 15-24 yrs  &  61 \\ 
+  1638 & Total Circumcised &  61 \\ 
+  272 & AWP Number of planning meetings held &  60 \\ 
+  282 & AWP Outpatients found with high blood pressure &  60 \\ 
+  515 & Delayed developmental milestones (ddm) New Cases &  60 \\ 
+  1054 & Negative -HIV Status (at circumcision) &  60 \\ 
+  1243 & OPD Injection room &  60 \\ 
+  1245 & OPD Laboratory room &  60 \\ 
+  1284 & OT- Discharged &  60 \\ 
+  1610 & TB patient on FS &  60 \\ 
+  186 & ANC Partners HIV+ve  &  59 \\ 
+  196 & APH (Ante partum Haemorrage) &  59 \\ 
+  259 & AWP Number of monthly Facility Health Committee meetings held &  59 \\ 
+  337 & Burns New Cases &  59 \\ 
+  781 & Hydrocephalus Old Cases &  59 \\ 
+  1000 & Measles 1 Dose Administered &  59 \\ 
+  1030 & Microscopy:- Patients over 14 years &  59 \\ 
+  91 & 42. Results at 8 months HIV + &  58 \\ 
+  774 & Households &  58 \\ 
+  1102 & No. tested for HIV &  58 \\ 
+  1320 & Overweight  0-$<$6 months &  58 \\ 
+  1458 & RDT:- Patients aged 5-14 yrs &  58 \\ 
+  1782 & Vitamin A 50,000 IU caps remaining at the end Month &  58 \\ 
+  228 & AWP Deliveries conducted by skilled attendants in health facilities &  57 \\ 
+  275 & AWP Number of quarterly performance review meetings held &  57 \\ 
+  1075 & New patients enrolled whin the month for HIV care through CWC &  57 \\ 
+  1247 & OPD Pharmacy/drug dispensing room &  57 \\ 
+  267 & AWP Number of Outreaches held from facility to the community &  56 \\ 
+  433 & Circumcised 25 yrs and Above &  56 \\ 
+  1208 & Old Admission relapses &  56 \\ 
+  1224 & OP: Old Admission relapses &  56 \\ 
+  1543 & Sexual assault Female Type of Exposure  &  56 \\ 
+  151 & Agrovet &  55 \\ 
+  906 & Labour and Delivery (Infant ARV prophylaxis) &  55 \\ 
+  1057 & Neonatal deaths &  55 \\ 
+  1289 & OT- Referrals &  55 \\ 
+  1422 & Previous Amount Received &  55 \\ 
+  1485 & Requirements from annual quantification (kshs) &  55 \\ 
+  1798 & Water reservoir Outside Access &  55 \\ 
+  168 & Amounts received in past 12 months (kshs) from KEMSA &  54 \\ 
+  1423 & Previous Expenditure &  54 \\ 
+  687 & Genital ulcer disease Re-attendance &  53 \\ 
+  1174 & Number of Pregnant women receiving IPTp &  53 \\ 
+  1330 & Partners HIV - Status &  53 \\ 
+  225 & AWP Children under 5 years attending Child Welfare Clinics who are under weight &  52 \\ 
+  1306 & Other reasons Male Type of Exposure  &  52 \\ 
+  1398 & Positive Result &  52 \\ 
+  1421 & Previous Amount Budgeted &  52 \\ 
+  1582 & Strabismus / Amblyopia &  52 \\ 
+  11 & 12. Results at 8 months HIV + &  51 \\ 
+  125 & 68. Results at 8 months -HIV + &  50 \\ 
+  973 & MCH/FP unit Antenatal room &  50 \\ 
+  1096 & No. initiated PEP &  50 \\ 
+  1305 & Other reasons – male - Provided with Prophylaxis  &  50 \\ 
+  61 & 2211301 Bank Service Commission \& Charges &  49 \\ 
+  538 & Discharge on recovery -OT &  49 \\ 
+  1222 & OP: Discharge Non Recovered &  49 \\ 
+  1304 & Other reasons – female -Provided with Prophylaxis  &  49 \\ 
+  1756 & VCT Couples both HIV+ve &  49 \\ 
+  131 & 71. Number on CPT &  48 \\ 
+  302 & BCG Dose Administered &  48 \\ 
+  338 & Burns Old Cases &  48 \\ 
+  562 & DPT+HIB+HEPB 3 Dose Administered &  48 \\ 
+  596 & Erbs palsy Old Cases &  48 \\ 
+  602 & Estimated post abortion &  48 \\ 
+  1268 & OPV1 Dose Administered &  48 \\ 
+  1519 & Sanitation and waste disposal Placenta pit &  48 \\ 
+  1565 & Spina Bifida Old Cases &  48 \\ 
+  1600 & Tb cases on Dots by Health care workers &  48 \\ 
+  132 & 72. Number on ART &  47 \\ 
+  232 & AWP Health facility service charter displayed  &  47 \\ 
+  269 & AWP Number of Persons referred to facility from Community Units &  47 \\ 
+  289 & AWP Therapeutic committee / clinical audit meetings held &  47 \\ 
+  560 & DPT+HIB+HEPB 1 Dose Administered &  47 \\ 
+  561 & DPT+HIB+HEPB 2 Dose Administered &  47 \\ 
+  777 & HSSF balance &  47 \\ 
+  1140 & Number of Clients tested for HIV &  47 \\ 
+  1333 & Partners HIV+ve referred for follow up &  47 \\ 
+  1376 & Pneumococcal 2 Dose Administered &  47 \\ 
+  1377 & Pneumococcal 3 Dose Administered &  47 \\ 
+  1390 & Population Growth Rate &  47 \\ 
+  1457 & Rapid Syphillis Test (RPR) &  47 \\ 
+  1459 & RDT:- Patients over 14 years &  47 \\ 
+  1561 & Source of running water Inside Tap &  47 \\ 
+  243 & AWP Number of clinical audit meetings held &  46 \\ 
+  345 & Canteen &  46 \\ 
+  431 & Circumcised 0-14 yrs &  46 \\ 
+  540 & Discordant Couples Partner Involvement &  46 \\ 
+  663 & Food Depots (slabs) &  46 \\ 
+  771 & Hotel and Lodges &  46 \\ 
+  897 & Keratitis  &  46 \\ 
+  907 & Labour and Delivery Postive to HIV Test &  46 \\ 
+  974 & MCH/FP unit FP room &  46 \\ 
+  1076 & New patients enrolled whin the month for HIV care through Inpatient &  46 \\ 
+  1270 & OPV2 Dose Administered &  46 \\ 
+  1272 & OPV3 Dose Administered &  46 \\ 
+  1285 & OT- Inpatient New Cases &  46 \\ 
+  1375 & Pneumococcal 1 Dose Administered &  46 \\ 
+  1474 & Referrals from OT (Out) &  46 \\ 
+  1499 & RHZE (150/75/400/275) &  46 \\ 
+  1539 & Severely underweight 24-59 months &  46 \\ 
+  227 & AWP Cost sharing collections (previous year) &  45 \\ 
+  664 & Food factories &  45 \\ 
+  707 & Health facility service charter displayed  &  45 \\ 
+  1303 & Other reasons  Female Type of Exposure  &  45 \\ 
+  1361 & Pit latrine  &  45 \\ 
+  1424 & Previous Expenditure accounted for (SOE’s submitted) &  45 \\ 
+  1542 & Sexual assault Female Provided with Prophylaxis  &  45 \\ 
+  1639 & Total Confirmed Positive Infant test result by PCR &  45 \\ 
+  1696 & Ultrasound &  45 \\ 
+  30 & 2110202 Casual Labour Wages &  44 \\ 
+  537 & Discharge Non Recovered &  44 \\ 
+  706 & Health facility providing youth friendly services &  44 \\ 
+  772 & Household size &  44 \\ 
+  778 & HSSF total expenditures &  43 \\ 
+  1250 & OPD Registration room &  43 \\ 
+  1497 & RH (150/75mg) &  43 \\ 
+  10 & 12. Number tested HIV+ (New EPTB) &  42 \\ 
+  281 & AWP Number of under five years treated for Diarrhea &  42 \\ 
+  290 & AWP Total available financing (kshs) &  42 \\ 
+  792 & IDSR Other cases &  42 \\ 
+  1039 & Mortuary Body days &  42 \\ 
+  1355 & Physiotheraphy treatment non-private &  42 \\ 
+  1517 & Sanitation and waste disposal Composite pit &  42 \\ 
+  308 & Beer depots  &  41 \\ 
+  508 & Dams &  41 \\ 
+  666 & Fortified Blended Food (FBF) flour, 415kcal/100g  [for Children aged 6 months – 9 years] &  41 \\ 
+  976 & MCH/FP unit Maternity ward  &  41 \\ 
+  9 & 11. Results at 8 months &  40 \\ 
+  15 & 1420359 User Fees &  40 \\ 
+  238 & AWP Number of beds &  40 \\ 
+  261 & AWP Number of new outpatient cases attributed to other injuries &  40 \\ 
+  362 & Children $<$5 years treated for Malaria &  40 \\ 
+  896 & Kenya Registered community Health Nurses &  40 \\ 
+  1093 & No. given STI treatment &  40 \\ 
+  1100 & No. of sexual assault survivors &  40 \\ 
+  1228 & OP: Transfer to other OTP sites &  40 \\ 
+  1261 & OPV (Birth dose) Within 2 weeks (Health facility) &  40 \\ 
+  1276 & Orthopaedic Clinic Attendance &  40 \\ 
+  1367 & PNC ($<$72hrs) (Infant ARV prophylaxis) &  40 \\ 
+  1531 & Seminars &  40 \\ 
+  211 & Assisted vaginal delivery &  39 \\ 
+  286 & AWP Pregnant women distributed with Long Lasting Insecticide Treated Nets (LLITNs) in endemic and epidemic districts &  39 \\ 
+  577 & Eclampsia &  39 \\ 
+  645 & Fence and gate  &  39 \\ 
+  876 & IP: Average Length of Stay in Days -Nutrition &  39 \\ 
+  1226 & OP: Old admission transfer from other OTP/SC &  39 \\ 
+  1464 & Re-Treatment TB patientsRHZE (150/75/400/275 mg) &  39 \\ 
+  1713 & Unigold &  39 \\ 
+  126 & 69. Results at 8 months HIV- &  38 \\ 
+  439 & Cleaners  &  38 \\ 
+  597 & ERF (6 months) Infant Feeding  &  38 \\ 
+  779 & HSSF total received &  38 \\ 
+  1155 & Number of HIV+ TB cases whose partners were tested for HIV &  38 \\ 
+  1354 & PHAST &  38 \\ 
+  1536 & Severely stunted for  24-59 months &  38 \\ 
+  1799 & Water storage for roof catchment  &  38 \\ 
+  22 & 1st Dose Tetanus Toxoid for pregnant  women (Health Facility) &  37 \\ 
+  166 & Amounts procured using user fees in past 12 months &  37 \\ 
+  217 & Avocado fruit &  37 \\ 
+  219 & AWP Amount for clients waived (Kshs) &  37 \\ 
+  242 & AWP Number of clients waived &  37 \\ 
+  343 & Caesarian Sections &  37 \\ 
+  344 & Caesarian Sections workload &  37 \\ 
+  612 & Facility committee meetings &  37 \\ 
+  668 & Fortified Blended Food (FBF) flour, 450kcal/100g  [for Pregnant Women and Post-partum mothers] &  37 \\ 
+  843 & Inpatient Occupied Bed Days -NHIF Members &  37 \\ 
+  856 & Inpatient services Stores &  37 \\ 
+  1036 & Monthly MOH 105 Service Delivery reports submitted in previous year (completeness- \%) &  37 \\ 
+  1196 & Obese  6-23 months &  37 \\ 
+  1225 & OP: Old admission return defaulters &  37 \\ 
+  1445 & Quarterly performance reports prepared, and discussed by Health management  Committee  &  37 \\ 
+  1532 & Sepsis &  37 \\ 
+  47 & 2210801 Catering Services, Accommodation, Gifts, Foods \& Drinks &  36 \\ 
+  283 & AWP Outpatients with mental health conditions &  36 \\ 
+  475 & Comprehensive Clinical management guidelines in place, and being utilized &  36 \\ 
+  585 & Emergency contingency plans (including referral plans) available &  36 \\ 
+  623 & Facility service charter is available, and is displayed in Outpatients  &  36 \\ 
+  879 & IP: Discharge Death &  36 \\ 
+  1134 & Number of Children under 5 years attending Child Welfare Clinics for growth monitoring (new cases) &  36 \\ 
+  1336 & Patient safety protocols / guidelines displayed in facility, and are being followed &  36 \\ 
+  1702 & Under 1yr Starting on ART  &  36 \\ 
+  191 & Annual Operational Plan available for past year &  35 \\ 
+  273 & AWP Number of pregnant women getting iron supplements &  35 \\ 
+  529 & Diabetes without Retinopathy &  35 \\ 
+  658 & First Aid skills amongst community units available (All CHEW’s) &  35 \\ 
+  1053 & Natural Family Planning &  35 \\ 
+  1209 & Old admission return defaulters &  35 \\ 
+  1402 & Postnatal (within 72hrs) Postive to HIV Test &  35 \\ 
+  1529 & Security officers &  35 \\ 
+  72 & 2nd Dose Tetanus Toxoid for pregnant  women (Health Facility) &  34 \\ 
+  659 & First Aid skills amongst community units available (All CHW) &  34 \\ 
+  1092 & No. given ECP &  34 \\ 
+  1429 & Prophylaxis - interrupted HAART &  34 \\ 
+  58 & 2211103 Sanitary \& Cleaning Materials &  33 \\ 
+  450 & Club Foot Old Cases &  33 \\ 
+  461 & Communication equipment Telephone available ( Mobile) available  &  33 \\ 
+  667 & Fortified Blended Food (FBF) flour, 435kcal/100g  [for Adults and Adolescents (10-17 years)] &  33 \\ 
+  672 & Fully Immunized Child (FIC) at 1 year (Health facility) &  33 \\ 
+  1043 & Mosquito &  33 \\ 
+  1091 & No. eligible for ECP &  33 \\ 
+  1126 & Number of  Committee meetings held in past 12 months &  33 \\ 
+  1163 & Number of monthly reports sent to health facility in past year &  33 \\ 
+  1194 & Obese  0-$<$6 months &  33 \\ 
+  1286 & OT- Inpatient Old Cases &  33 \\ 
+  1657 & Total radiological examinations &  33 \\ 
+  41 & 2210302 Domestic Accomodation &  32 \\ 
+  260 & AWP Number of new outpatient cases attributed to gender-based violence &  32 \\ 
+  297 & Banana &  32 \\ 
+  467 & Community Health Extension Worker &  32 \\ 
+  620 & Facility Management Team meetings held in past 12 months &  32 \\ 
+  830 & Infectious Hepatitis &  32 \\ 
+  884 & IP: Old Admission relapses &  32 \\ 
+  1535 & Severely stunted for  0-$<$6 months &  32 \\ 
+  1576 & Sterilization BTL &  32 \\ 
+  1588 & Supermarkers &  32 \\ 
+  1662 & Total Surgery &  32 \\ 
+  1682 & Transport Motor cycles &  32 \\ 
+  1714 & Unknown -HIV Status (at circumcision)  &  32 \\ 
+  102 & 51. Results at 8 months HIV Test Not Done &  31 \\ 
+  435 & Clean energy source Electricity &  31 \\ 
+  530 & Diabetic Retinopathy &  31 \\ 
+  926 & Macular Diseases &  31 \\ 
+  1027 & Microcephalus Old Cases &  31 \\ 
+  1117 & Not Known Infant Feeding (12 months) &  31 \\ 
+  1432 & Prophylaxis Cotrim DS (960mg) &  31 \\ 
+  1690 & TT Plus (Boosters)Tetanus Toxoid for pregnant  women (Health facility) &  31 \\ 
+  193 & Annual stakeholders meeting held for past year &  30 \\ 
+  250 & AWP Number of fevers tested positive for malaria (confirmed malaria) &  30 \\ 
+  253 & AWP Number of health facilities with functional microscopes &  30 \\ 
+  280 & AWP Number of TB Patients tested for HIV &  30 \\ 
+  370 & Children under 1Yrs distributed with LLITNs &  30 \\ 
+  866 & IP - Admissions &  30 \\ 
+  867 & IP - Available beds &  30 \\ 
+  869 & IP - Deaths &  30 \\ 
+  927 & Major surgeries  &  30 \\ 
+  1118 & Numbber of  clients enrolled for HCBC &  30 \\ 
+  1132 & Number of children aged 6-23 months supplemented with  MNPS  &  30 \\ 
+  1135 & Number of CHWs providing HCBC &  30 \\ 
+  1136 & Number of CHWs reporting &  30 \\ 
+  1446 & Quarterly stakeholder meetings held in past 12 months  &  30 \\ 
+  1522 & Sanitation and waste disposal Soak Pit &  30 \\ 
+  1674 & Trained Community Health Workers (Male) &  30 \\ 
+  13 & 1330309 GOK Contribution &  29 \\ 
+  276 & AWP Number of referred clients reaching referral unit &  29 \\ 
+  871 & IP - Discharges &  29 \\ 
+  1059 & Neonates 0- 28 days &  29 \\ 
+  1175 & Number of quarterly Community dialogue days &  29 \\ 
+  1469 & Ready to use therapeutic food (RUTF) paste, 500kcal/92g (e.g. Plumpy Nut) &  29 \\ 
+  1521 & Sanitation and waste disposal Septic Tank &  29 \\ 
+  1673 & Trained Community Health Workers (Female) &  29 \\ 
+  28 & 21. Results at 8 months HIV Test Not Done &  28 \\ 
+  35 & 2210201 Telephone Telex Fax \& Mobiles  &  28 \\ 
+  265 & AWP Number of newly diagnosed TB cases &  28 \\ 
+  438 & Clean energy source Solar &  28 \\ 
+  456 & Communication equipment Computer &  28 \\ 
+  1125 & Number of  Clients 15 yrs and over enrolled for HCBC &  28 \\ 
+  1142 & Number of Clients$<$ 15 yrs enrolled for HCBC &  28 \\ 
+  1144 & Number of committee meetings attended by all CHC members &  28 \\ 
+  1331 & Partners HIV + Status &  28 \\ 
+  1431 & Prophylaxis –NVP Only &  28 \\ 
+  1463 & Re-Treatment TB patientsRHE(150/75/275mg) &  28 \\ 
+  68 & 24. Results at 2 months  &  27 \\ 
+  69 & 25. Results at 5 months &  27 \\ 
+  119 & 6580101 Cash-in-Hand Balance &  27 \\ 
+  235 & AWP Newborns with low birth weight (LBW – less than 2,500 grams) &  27 \\ 
+  279 & AWP Number of TB patients completing treatment &  27 \\ 
+  293 & AWP Women of Reproductive Age screened for cervical cancer &  27 \\ 
+  465 & Community board  &  27 \\ 
+  466 & Community boards &  27 \\ 
+  689 & Glaucoma &  27 \\ 
+  852 & Inpatient services Maternity Beds &  27 \\ 
+  874 & IP - Transfers out &  27 \\ 
+  1098 & No. of perpetrators &  27 \\ 
+  1145 & Number of committee meetings attended by other health partners in the Community Unit in the past 12 months &  27 \\ 
+  1301 & Other Lid surgery &  27 \\ 
+  1308 & Other Retinopathy &  27 \\ 
+  1380 & Point of use Water treatment solution  (1.2\% Sodium hypochlorite[NaOCl] ) &  27 \\ 
+  1384 & Population 12-59 Months (80\% of $<$ 5yrs) &  27 \\ 
+  1387 & Population 6-11 Months (50\% of $<$1yrs) &  27 \\ 
+  1397 & Positive -HIV Status (at circumcision) &  27 \\ 
+  1465 & Re-Treatment TB patientsStreptomycin IM 1gm &  27 \\ 
+  56 & 2211101 General Office Supplies (paper, pencils, forms, small office equipment, etc) &  26 \\ 
+  78 & 31. Number on ART &  26 \\ 
+  241 & AWP Number of clients exempted &  26 \\ 
+  449 & Club Foot New Cases &  26 \\ 
+  704 & Health Facility Board  &  26 \\ 
+  872 & IP - Patient bed days &  26 \\ 
+  1165 & Number of new outpatient cases attributed to other injuries &  26 \\ 
+  1171 & Number of Persons referred to facility, from Community Units &  26 \\ 
+  1210 & Old admission transfer from other OTP/SC &  26 \\ 
+  1295 & Other conjunctivitis &  26 \\ 
+  1545 & Sexual assault Male Type of Exposure  &  26 \\ 
+  1681 & Transport Bicycles &  26 \\ 
+  44 & 2210502 Publishing \& Printing Services &  25 \\ 
+  120 & 6580101 Cash-in-Hand Balance  &  25 \\ 
+  326 & Blue tips &  25 \\ 
+  358 & Children $<$1 year deaths occuring at facility &  25 \\ 
+  482 & Conjunctival Growth Excision &  25 \\ 
+  494 & County Government  &  25 \\ 
+  858 & Integrated Outreaches carried out, to community units  &  25 \\ 
+  868 & IP - Available cots &  25 \\ 
+  905 & Laboratory Technologist &  25 \\ 
+  961 & Maternal Deaths &  25 \\ 
+  1152 & Number of health facilities with functional microscopes &  25 \\ 
+  1211 & On 2nd Line (or higher) at 12 months  Survival and Retention on ART  &  25 \\ 
+  1388 & Population 6-59 Months (90\% of $<$ 5yrs) &  25 \\ 
+  1632 & Theatre assistance for Orthopedic cases &  25 \\ 
+  109 & 58. Results at 8 months HIV Test Not Done &  24 \\ 
+  114 & 6. Results at 8 months HIV Test Not Done &  24 \\ 
+  693 & Green grocers &  24 \\ 
+  742 & Hemiplegia New Cases &  24 \\ 
+  744 & Hepatitis B (ELISA) Test (Hepanostika) &  24 \\ 
+  745 & HerpesZosterOphthalmicus &  24 \\ 
+  875 & IP - Well People &  24 \\ 
+  886 & IP: Old Admission transfer from other OTP/SC &  24 \\ 
+  1168 & Number of OVC enrolled for follow up care &  24 \\ 
+  1201 & Occupational Male Type of Exposure  &  24 \\ 
+  1544 & Sexual assault Male Provided with Prophylaxis &  24 \\ 
+  1568 & Sputum mugs (AFB Polypots with lids) &  24 \\ 
+  1715 & Updated Household register for community &  24 \\ 
+  12 & 13. Results at 8 months HIV- &  23 \\ 
+  53 & 2211008 Lab Materials, Supplies \& Small Equipment &  23 \\ 
+  224 & AWP Children under 5 years attending Child Welfare Clinics who are stunted &  23 \\ 
+  236 & AWP Number mult-displinary support supervisory visits carried out &  23 \\ 
+  244 & AWP Number of Community action days held &  23 \\ 
+  559 & DPT+HiB+HEP B No. of children vaccinated during the  month &  23 \\ 
+  595 & Erbs palsy New Cases &  23 \\ 
+  656 & First Aid skills - CHEWs &  23 \\ 
+  1040 & Mortuary Embalment &  23 \\ 
+  1046 & Motor cycle &  23 \\ 
+  1139 & Number of clients referred to health facility &  23 \\ 
+  1200 & Occupational Male Provided with Prophylaxis &  23 \\ 
+  1202 & Occupational on post exposure prophylaxis &  23 \\ 
+  1267 & OPV No. of children vaccinated during the  month &  23 \\ 
+  1571 & Staff quarters for persons on duty  &  23 \\ 
+  1575 & Statutory Notices Served &  23 \\ 
+  1692 & TTB cases on ND &  23 \\ 
+  143 & Acreage &  22 \\ 
+  249 & AWP Number of eligible HIV clients on ARVs &  22 \\ 
+  307 & BCG No. of children vaccinated during the  month &  22 \\ 
+  347 & Casual labour/wages &  22 \\ 
+  489 & Corneal Scar -Injury or Infection &  22 \\ 
+  650 & FIF-Invoiced &  22 \\ 
+  657 & First Aid skills - CHWs &  22 \\ 
+  998 & Measle No. of children vaccinated during the  month &  22 \\ 
+  1156 & Number of Households reached with health promotion messages &  22 \\ 
+  1158 & Number of Households with hand washing facilities &  22 \\ 
+  1349 & PCV 10 (Pneumococcal) No. of children vaccinated during the  month &  22 \\ 
+  1680 & Transport Ambulances &  22 \\ 
+  1768 & Vitamin A - Lactating Mothers (200,000IU) &  22 \\ 
+  1792 & Vitamin A Lactating Mothers (200,000IU) (Health facility) &  22 \\ 
+  65 & 2220205 Maintenance of Buildings \& Stations (non-residential) &  21 \\ 
+  218 & AWP Amount for clients exempted (Kshs) &  21 \\ 
+  270 & AWP Number of persons with Chronic illness being followed up  &  21 \\ 
+  314 & Bicycles &  21 \\ 
+  847 & Inpatient services Administration offices &  21 \\ 
+  855 & Inpatient services Room for health records &  21 \\ 
+  1157 & Number of Households with functional toilets &  21 \\ 
+  1441 & Public Health Officers &  21 \\ 
+  1467 & Ready to use supplemental food (RUSF) paste, 500kcal/92g (e.g. Plumpy Soy) &  21 \\ 
+  1749 & User fees &  21 \\ 
+  70 & 27. Results at 8 months -HIV + &  20 \\ 
+  239 & AWP Number of births occurring  in the home environmen &  20 \\ 
+  295 & Bakeries &  20 \\ 
+  463 & Communication equipmentInternet connection/modem &  20 \\ 
+  484 & Constituency Development Fund &  20 \\ 
+  683 & General clinical officers &  20 \\ 
+  775 & Houses sprayed with insecticide residual spray (IRS) &  20 \\ 
+  929 & Malaria Inpatient &  20 \\ 
+  1131 & Number of births included in Household register in past year &  20 \\ 
+  1161 & Number of kits supplied in the past year &  20 \\ 
+  1178 & Number of referred clients reaching referral unit &  20 \\ 
+  1257 & Ophthalmic Neonatorum &  20 \\ 
+  1562 & Special X-Rays with magnetic process (MRI, CT) &  20 \\ 
+  1783 & Vitamin A At  6  Months (100,000 IU) (Health facility) &  20 \\ 
+  54 & 2211015 Food \& Rations &  19 \\ 
+  60 & 2211202 Refined Fuels \& Lubricants for Production &  19 \\ 
+  150 & Adverse Events Following Immunization(AEFI) &  19 \\ 
+  361 & Children $<$15yrsR/H (60/30mg) &  19 \\ 
+  399 & CHIS Maternal Deaths &  19 \\ 
+  532 & Diarrhoea and GE &  19 \\ 
+  695 & HACCP &  19 \\ 
+  1176 & Number of quarterly Facility Health Committee meetings held &  19 \\ 
+  1251 & OPD Special clinics consultation rooms &  19 \\ 
+  1254 & Ophthalmia Neonatorum  Re-attendance &  19 \\ 
+  1343 & PCR (3 to 8 months) Confirmed Infant Test Results Positive &  19 \\ 
+  1379 & Pneumonia Inpatient &  19 \\ 
+  32 & 2210101 Electricity &  18 \\ 
+  98 & 49. Results at 8 months HIV + &  18 \\ 
+  103 & 52. Number on CPT &  18 \\ 
+  237 & AWP Number of adults OPD clients with BMI more than 25 &  18 \\ 
+  785 & Identified problem  1  &  18 \\ 
+  786 & Identified problem  2  &  18 \\ 
+  846 & Inpatient services Accounts department/Cash office &  18 \\ 
+  880 & IP: Discharge Defaulters &  18 \\ 
+  932 & Malaria inpatient deaths &  18 \\ 
+  1042 & Mortuary Unclaimed body days &  18 \\ 
+  1124 & Number not on Nutritional Support &  18 \\ 
+  1321 & Overweight  24-59 months &  18 \\ 
+  1344 & PCR (9 to 12 months) Confirmed Infant Test Results Positive  &  18 \\ 
+  1433 & Prophylaxis Isoniazid 100mg &  18 \\ 
+  1553 & Smear Negative Malaria &  18 \\ 
+  1625 & Test Kit- VCT	 &  18 \\ 
+  1789 & Vitamin A At 1 Year (200,000IU) (Health Facility) &  18 \\ 
+  14 & 14. Results at 8 months HIV Test Not Done &  17 \\ 
+  48 & 2210802 Boards, Committees, Conferences \& Seminars &  17 \\ 
+  93 & 44. Results at 8 months HIV Test Not Done &  17 \\ 
+  104 & 53. Number on ART &  17 \\ 
+  123 & 6760101 Imprest Balance &  17 \\ 
+  214 & Autism Old Cases &  17 \\ 
+  257 & AWP Number of inpatient (admissions) Over 5 &  17 \\ 
+  274 & AWP Number of pregnant women receiving IPT2 in endemic  and epidemic districts &  17 \\ 
+  457 & Communication equipment Copy Printer &  17 \\ 
+  488 & Corneal Scar-Trachoma  (CO) &  17 \\ 
+  873 & IP - Transfers in &  17 \\ 
+  1034 & Mobile phone &  17 \\ 
+  1299 & Other Food premises &  17 \\ 
+  1345 & PCR (by 2 months) Confirmed Infant Test Results Positive &  17 \\ 
+  18 & 16. Number on CPT &  16 \\ 
+  262 & AWP Number of new outpatient cases attributed to Road Traffic Accidents &  16 \\ 
+  291 & AWP Total inpatient days (OBD) &  16 \\ 
+  371 & CHIS  Women of childbearing age (15–49yrs) &  16 \\ 
+  376 & CHIS Children under five year old &  16 \\ 
+  379 & CHIS Children under one year old &  16 \\ 
+  423 & CHIS Total catchment Population for Community Unit  &  16 \\ 
+  424 & CHIS Total elderly above 60 years  &  16 \\ 
+  425 & CHIS Total Households &  16 \\ 
+  895 & Kenya Enrolled community Health Nurses &  16 \\ 
+  1026 & Microcephalus New Cases &  16 \\ 
+  1071 & New HIV Positive Male &  16 \\ 
+  1137 & Number of clients reached with PWP messages &  16 \\ 
+  1181 & Number of Women of Reproductive Age screened for cervical cancer &  16 \\ 
+  1195 & Obese  24-59 months &  16 \\ 
+  1442 & Public Health Technicians &  16 \\ 
+  1570 & Squint/White Eye reflection Under 1 year &  16 \\ 
+  1589 & Supply services unit Kitchen &  16 \\ 
+  1590 & Supply services unit Laundry &  16 \\ 
+  1619 & Telephone, Telex, Facsimile \& Mobile Phones &  16 \\ 
+  1631 & TetanusToxoid No. of ANC Clients vaccinated during the  month &  16 \\ 
+  1719 & Urethral discharge Referrals &  16 \\ 
+  1730 & Urine Micro- Pus Cells ($>$5/hpf) &  16 \\ 
+  1762 & VDRL/RPR Negative &  16 \\ 
+  1801 & Wide Test Negative &  16 \\ 
+  50 & 2211002 Dressings \& Non Pharmaceuticals &  15 \\ 
+  124 & 6760101Imprest Balance &  15 \\ 
+  157 & All others Eye Surgiries &  15 \\ 
+  408 & CHIS Number of households with jiggers infestation  &  15 \\ 
+  584 & Emergency contingency plans (including referral plans) &  15 \\ 
+  688 & Genital ulcer disease Referrals &  15 \\ 
+  787 & Identified problem  3  &  15 \\ 
+  1002 & Measles 2  At 1 ½ - 2 Years (Health Facility) &  15 \\ 
+  1123 & Number mult-displinary support supervisory visits carried out &  15 \\ 
+  1162 & Number of monthly Facility Health management Committee meetings held  &  15 \\ 
+  1198 & Occupational Female Provided with Prophylaxis &  15 \\ 
+  1199 & Occupational Female Type of Exposure  &  15 \\ 
+  1556 & Smear Positive Malaria &  15 \\ 
+  1564 & Spina Bifida New Cases &  15 \\ 
+  1678 & Transfer to other SFP sites &  15 \\ 
+  1810 & Yellow fever doses Administered &  15 \\ 
+  40 & 2210302 Accommodation &  14 \\ 
+  247 & AWP Number of deaths occurring in the home  environment  &  14 \\ 
+  251 & AWP Number of Fresh Still Births in the facility &  14 \\ 
+  258 & AWP Number of inpatients (admissions) Under 5 &  14 \\ 
+  271 & AWP Number of Persons with ill health referred to community Units  &  14 \\ 
+  590 & Enhancement X-Rays with contact media &  14 \\ 
+  608 & Eye Total New Patients &  14 \\ 
+  609 & Eye Total Revisit Patients &  14 \\ 
+  680 & Functional Refrigerators &  14 \\ 
+  711 & Health Record \& Information Officers &  14 \\ 
+  849 & Inpatient services Beds for female inpatients &  14 \\ 
+  851 & Inpatient services Community services room &  14 \\ 
+  865 & IP - Absconders &  14 \\ 
+  1148 & Number of deaths included in Household register in past year &  14 \\ 
+  1220 & OP: Discharge Death &  14 \\ 
+  1574 & Statutory Notices Complied &  14 \\ 
+  94 & 45. Number on CPT &  13 \\ 
+  441 & Clerks  &  13 \\ 
+  848 & Inpatient services Beds for children &  13 \\ 
+  1020 & Meningococcal Meningitis &  13 \\ 
+  1070 & New HIV Positive Female &  13 \\ 
+  1080 & New Patients Eye &  13 \\ 
+  1097 & No. of attempted rape survivors &  13 \\ 
+  1167 & Number of Outreaches held from facility to the community &  13 \\ 
+  1186 & Nursing officers (Bsn) &  13 \\ 
+  1255 & Ophthalmia Neonatorum  Referrals &  13 \\ 
+  1296 & Other Development Partners &  13 \\ 
+  1310 & Others vectors/Vermin &  13 \\ 
+  1444 & Quarterly Community dialogue days held &  13 \\ 
+  1512 & Ruptured Uterus &  13 \\ 
+  1520 & Sanitation and waste disposal Public Sewerage &  13 \\ 
+  1683 & Transport Support/Utility vehicles &  13 \\ 
+  1743 & Urine Pregnancy test Negative &  13 \\ 
+  1779 & Vitamin A 200,000 IUNo. of children supplemented during the  month &  13 \\ 
+  1802 & Wide Test Positive &  13 \\ 
+  320 & Blood chem.Random blood sugar &  12 \\ 
+  360 & Children $<$15yrs(60/30/150mg) &  12 \\ 
+  388 & CHIS Estimated Deliveries &  12 \\ 
+  389 & CHIS Estimated live births &  12 \\ 
+  413 & CHIS Population 25-59 years &  12 \\ 
+  414 & CHIS Population of  female &  12 \\ 
+  415 & CHIS Population of  male &  12 \\ 
+  416 & CHIS Population under 15 years &  12 \\ 
+  437 & Clean energy source Generator house &  12 \\ 
+  446 & Clinic &  12 \\ 
+  468 & Community Health Extension Workers &  12 \\ 
+  499 & Cumulative Ever on ART started on ARVs at beginning of the Year &  12 \\ 
+  518 & Deliveries Conducted by Skilled Health Workers-AOP-yr &  12 \\ 
+  684 & General medical officers &  12 \\ 
+  685 & Generator house  &  12 \\ 
+  755 & HIV Diagnostic DTC/PITC Negative &  12 \\ 
+  761 & HIV Positive MAM &  12 \\ 
+  850 & Inpatient services Beds for male inpatients &  12 \\ 
+  918 & Live Births-AOP-yr &  12 \\ 
+  922 & LLITNs distributed to Pregnant Women AOP-yr &  12 \\ 
+  1173 & Number of planning meetings held &  12 \\ 
+  1278 & Orthopaedic technology items non private &  12 \\ 
+  1410 & Pregnant women attending four ANC visits-AOP-yr &  12 \\ 
+  1503 & Rock catchments &  12 \\ 
+  1767 & Vitamin A - 6 Months to 11 Months (100,000 IU) &  12 \\ 
+  1781 & Vitamin A 50,000 IU caps received within  the Month &  12 \\ 
+  1786 & Vitamin A At 1 ½  Year (200,000IU) (Health Facility) &  12 \\ 
+  49 & 2211001 Medical Drugs &  11 \\ 
+  213 & Autism New Cases &  11 \\ 
+  230 & AWP Episodes with over 7 days stock-outs for any of the 22 tracer Essential medicines and Medical supplies &  11 \\ 
+  342 & Cabagges &  11 \\ 
+  436 & Clean energy source Generator &  11 \\ 
+  487 & Corn Soy Blend flour, 390kcal/100g &  11 \\ 
+  579 & EDTA Vacutainer Stabilizer tubes &  11 \\ 
+  697 & Health facilities functional committees meetings held in past 12 months &  11 \\ 
+  845 & Inpatient Paroles &  11 \\ 
+  955 & Management Team meetings held in past 12 months &  11 \\ 
+  1047 & Multiple Micro nutrients powders &  11 \\ 
+  1147 & Number of Deaths due to HIV &  11 \\ 
+  1166 & Number of new outpatient cases attributed to Road Traffic Accidents &  11 \\ 
+  1177 & Number of quarterly performance review meetings held &  11 \\ 
+  1193 & Nutritionists &  11 \\ 
+  1227 & OP: Transfer out to TFC/SC &  11 \\ 
+  1486 & Resamol (Sachet) &  11 \\ 
+  1491 & Revisit Patient Eye &  11 \\ 
+  1528 & Secretaries &  11 \\ 
+  1813 & Yellow Fever doses remaining at  the end Month &  11 \\ 
+  59 & 2211201 Refined Fuels \& Lubricants for Transport &  10 \\ 
+  139 & Ablution block  &  10 \\ 
+  329 & Bovines  &  10 \\ 
+  678 & Functional anti-corruption committee &  10 \\ 
+  713 & Health research publications shared with decision makers &  10 \\ 
+  780 & Hydrocephalus New Cases &  10 \\ 
+  864 & Invalid Result for RDT test &  10 \\ 
+  956 & Mandazi &  10 \\ 
+  1049 & Multiple Vitamin and Mineral mix (tablets/capsules) &  10 \\ 
+  1239 & OPD Dental unit room &  10 \\ 
+  1259 & Optic Atrophy (non-glaucoma) &  10 \\ 
+  1352 & pharmaceutical Technologists &  10 \\ 
+  1364 & Planning unit with Performance Contract &  10 \\ 
+  1382 & Policies/document using evidence as per guidelines &  10 \\ 
+  1550 & Shoats &  10 \\ 
+  1744 & Urine Pregnancy test Positive &  10 \\ 
+  1772 & Vitamin A 100,000 IUNo. of children supplemented during the  month &  10 \\ 
+  52 & 2211004 Fungicides, Insecticides \& Sprays &   9 \\ 
+  167 & Amounts received in past 12 months (kshs) from Donation &   9 \\ 
+  240 & AWP Number of children Under 5 dying in health facility &   9 \\ 
+  327 & Board meetings held in past 12 months &   9 \\ 
+  564 & Drivers &   9 \\ 
+  583 & Electricity &   9 \\ 
+  712 & Health Record \& Information Technicians &   9 \\ 
+  763 & HIV+ pregnant women receiving preventive ARVs treatment (PMTCT)-AOP-yr &   9 \\ 
+  885 & IP: Old Admission return defaulters &   9 \\ 
+  977 & MDR- Health Facility &   9 \\ 
+  1150 & Number of health facilities supervised &   9 \\ 
+  1170 & Number of performance quarterly review and feedback meetings held &   9 \\ 
+  1246 & OPD Minor theatre &   9 \\ 
+  1280 & Orthopaedic treatment non-private &   9 \\ 
+  1329 & Partners Decline HIV status &   9 \\ 
+  1412 & Pregnant women receiving IPT 2-AOP-yr &   9 \\ 
+  1468 & Ready to use therapeutic food (RUTF) bar, 500kcal/100g &   9 \\ 
+  1481 & Remainder of endocrine, nutritional and metabolic diseases &   9 \\ 
+  1604 & TB cases on treatment at the end of the quarter on MDR &   9 \\ 
+  1677 & Transfer Out to OTP/SC &   9 \\ 
+  1804 & WRA Recieving FP Commodities - AOP-yr &   9 \\ 
+  1811 & Yellow Fever doses in stock at the beginning of the Month &   9 \\ 
+  51 & 2211002 Dressings and non-pharmaceuticals &   8 \\ 
+  172 & Anaemias &   8 \\ 
+  192 & Annual performance review meeting held  &   8 \\ 
+  199 & Area in Kilometer square &   8 \\ 
+  248 & AWP Number of deaths with verbal autopsies completed in Community &   8 \\ 
+  368 & Children reciving Vitamin A (1-2 doses)- AOP-yr &   8 \\ 
+  369 & Children under 1 year vaccinated against Measles-AOP-yr &   8 \\ 
+  460 & Communication equipment Photocopier &   8 \\ 
+  462 & Communication equipment VHF Radio &   8 \\ 
+  473 & Community Oral Health officers &   8 \\ 
+  486 & Cooks  &   8 \\ 
+  507 & Cysts &   8 \\ 
+  580 & EDTA Vacutainer tubes &   8 \\ 
+  651 & FIF-Waiver &   8 \\ 
+  715 & Hearing/Speech Disorder Old Cases &   8 \\ 
+  773 & Household with latrines &   8 \\ 
+  824 & Infant formula 1, 67kcal/100ml  (Formula 1: 0-6 months for HIV Exposed Babies) &   8 \\ 
+  825 & Infant formula 2, 67kcal/100ml  (Formula 2: 6-12 months for HIV Exposed Babies) &   8 \\ 
+  921 & LLITNs distributed to children under 5 years AOP-yr &   8 \\ 
+  962 & Maternal Deaths Audited &   8 \\ 
+  1048 & Multiple Vitamin and Mineral mix (liquid) &   8 \\ 
+  1101 & No. reported to police &   8 \\ 
+  1138 & Number of clients referred to community based services &   8 \\ 
+  1205 & Occupational Therapy  private &   8 \\ 
+  1353 & Pharmacists &   8 \\ 
+  1495 & RF Negative &   8 \\ 
+  1552 & Smear Negative AFB &   8 \\ 
+  1633 & Therapeutic diet milk (F-100), 100kcal/100ml &   8 \\ 
+  1634 & Therapeutic diet milk (F-75), 75kcal/100ml &   8 \\ 
+  1672 & Trained Community Health Workers &   8 \\ 
+  1703 & Under 5’s attending Growth Monitoring Clinic (New visits)-AOP-yr &   8 \\ 
+  1748 & US Government (USAID / APHIA Plus) &   8 \\ 
+  16 & 1420369 Others (Incl. Direct Donations) &   7 \\ 
+  38 & 2210301 Domestic Travel Costs (Air, Bus, Rail, Mileage) &   7 \\ 
+  142 & Accountants &   7 \\ 
+  161 & All others non-Medical personnel &   7 \\ 
+  198 & Are there local purchases of EMMS &   7 \\ 
+  215 & Availability of power source / fuel &   7 \\ 
+  216 & Availability of water &   7 \\ 
+  298 & Bank account signatories are as per guidelines &   7 \\ 
+  301 & Basic FM tools (Receipt books, Cash book \& payment vouchers) in use  &   7 \\ 
+  363 & Children $<$5 years treated for Malaria AOP-yr &   7 \\ 
+  366 & Children fully immunized at 1 year of age - AOP-yr &   7 \\ 
+  405 & CHIS Number of  livelihood activities initiated at community unit &   7 \\ 
+  406 & CHIS Number of babies breastfed within first one hour of delivery and fed on colostrum  &   7 \\ 
+  411 & CHIS Number of pregnant women with danger signs referred to Health facility &   7 \\ 
+  451 & Cold surgical cases &   7 \\ 
+  464 & Community and users (staff) informed of delivery  &   7 \\ 
+  474 & Compound well maintained &   7 \\ 
+  485 & Consultation room (diagnostic set, BP machine) &   7 \\ 
+  520 & Delivery verified and signed off by HFMC &   7 \\ 
+  525 & Dental Technologists &   7 \\ 
+  526 & Dentists &   7 \\ 
+  548 & Disposal of waste &   7 \\ 
+  589 & EMMS received as ordered during last quarter &   7 \\ 
+  615 & Facility has a QIP for the current quarter &   7 \\ 
+  616 & Facility has an AIE for the current quarter &   7 \\ 
+  617 & Facility has an AOP for the current year &   7 \\ 
+  618 & Facility has one bank account for all incomes &   7 \\ 
+  619 & Facility Management Committee (HFMC) in place &   7 \\ 
+  621 & Facility meets core financial management requirements  &   7 \\ 
+  652 & Finanacial and activity data “displayed” for stakeholders  &   7 \\ 
+  654 & Financial management guidelines (FM Operations Guide, Guidelines on FM) available &   7 \\ 
+  674 & Fully Immunized Child (FIC) at 2 year (Health facility) &   7 \\ 
+  692 & Good maintenance state for buildings &   7 \\ 
+  696 & Haematology HB &   7 \\ 
+  746 & HFMC held meeting for previous quarter  &   7 \\ 
+  747 & HFMC holding regular quarterly meetings (record of minutes available) &   7 \\ 
+  762 & HIV Positive SAM &   7 \\ 
+  854 & Inpatient services Operating theatre beds  &   7 \\ 
+  883 & IP: OBD (Cummulative number of days for all Patients)-Nutrition &   7 \\ 
+  887 & IP: Transfer out to TFC/SC &   7 \\ 
+  911 & Latest activity reports submitted to DHRIO &   7 \\ 
+  963 & Maternity (delivery sets, resuscitation equipment, delivery bed) &   7 \\ 
+  972 & MCH / FP (weighing scale, fridge, BP machine) &   7 \\ 
+  1004 & Measles 2 Above 2 years &   7 \\ 
+  1017 & Medical Social workers &   7 \\ 
+  1068 & New HIV Negative Female &   7 \\ 
+  1115 & Not Done &   7 \\ 
+  1184 & Nurses &   7 \\ 
+  1185 & Nurses AOP-yr &   7 \\ 
+  1203 & Occupational Therapists &   7 \\ 
+  1277 & Orthopaedic Technologists &   7 \\ 
+  1316 & Overall remark on financial management: Please  indicate 1 =Excellent  2= Good  3= Fair  4= Poor &   7 \\ 
+  1407 & Pre-term formula, 80kcal/100ml &   7 \\ 
+  1451 & Radiology unit USS room &   7 \\ 
+  1484 & Reports discussed in facility staff meeting &   7 \\ 
+  1563 & Specialised clinical officers &   7 \\ 
+  1577 & Sterilization Vasectomy &   7 \\ 
+  1580 & Stock-outs during last quarter (ACT, vaccines, cotrimoxazole, FP, paracetamol) &   7 \\ 
+  1581 & Stock control cards present and updated for latest delivery &   7 \\ 
+  1591 & Support staff &   7 \\ 
+  1635 & Tomato Sauce &   7 \\ 
+  1664 & Total survivors with disability &   7 \\ 
+  1712 & Underweights among under 5 attending CWC AOP-yr &   7 \\ 
+  1752 & VCT clients -AOP-yr &   7 \\ 
+  1773 & Vitamin A 2 Years to  5 Years (200,000IU) (Health facility) &   7 \\ 
+  1800 & Were there expiries during last quarter &   7 \\ 
+  1805 & Written feed-back from latest reports received from DHMT / Accountant &   7 \\ 
+  4 & 1. Type of resistance &   6 \\ 
+  24 & 2. Number MDR-TB tested for HIV &   6 \\ 
+  62 & 2220101 Maintenance Expenses – Motor Vehicles &   6 \\ 
+  71 & 29. Results at 8 months HIV Test Not Done &   6 \\ 
+  145 & Activity information shared among stakeholders (chalk-board, meetings, etc) &   6 \\ 
+  146 & Administrators &   6 \\ 
+  159 & All Others Health workforce &   6 \\ 
+  176 & ANC Client given iron AOP-yr &   6 \\ 
+  246 & AWP Number of complaints registered &   6 \\ 
+  266 & AWP Number of outbreaks investigated within 48 hours &   6 \\ 
+  268 & AWP Number of Patients with  injury  related conditions dying in the facility &   6 \\ 
+  331 & Brucella A Negative &   6 \\ 
+  333 & Brucella M Negative &   6 \\ 
+  348 & Cataract operation with IOL implantation &   6 \\ 
+  365 & Children dewormed at least once in a year AOP-yr &   6 \\ 
+  459 & Communication equipment Internet connection/LAN/WAN &   6 \\ 
+  478 & Condoms distributed-AOP-yr &   6 \\ 
+  510 & Date of visit &   6 \\ 
+  535 & Discharge Death &   6 \\ 
+  700 & Health facilities providing regular check-ups for elderly persons &   6 \\ 
+  863 & Invalid result &   6 \\ 
+  901 & Laboratory (microscope) &   6 \\ 
+  912 & Latest financial report submitted &   6 \\ 
+  914 & LATF &   6 \\ 
+  1011 & Mechanisms of informing users and community on deliveries in place &   6 \\ 
+  1013 & Medical Engineering Technicians &   6 \\ 
+  1014 & Medical Engineering Technologists &   6 \\ 
+  1072 & New Outpatient (curative) visits AOP-yr &   6 \\ 
+  1088 & Newborn received BCG-AOP-yr &   6 \\ 
+  1164 & Number of new outpatient cases attributed to gender-based violence &   6 \\ 
+  1187 & Nutrition Interventions Post-natal &   6 \\ 
+  1235 & OPD attendance Female AOP-yr &   6 \\ 
+  1236 & OPD attendance Male AOP-yr &   6 \\ 
+  1260 & Optic neuritis &   6 \\ 
+  1319 & Overall remark on utilities, equipments, infrastructure and environment: Please  indicate 1 =Excellent  2= Good  3= Fair  4= Poor &   6 \\ 
+  1328 & Paraplegia Old Cases &   6 \\ 
+  1350 & Penetrating Globe Injury repair &   6 \\ 
+  1357 & Physiotherapists &   6 \\ 
+  1362 & Plain Vacutainer tubes &   6 \\ 
+  1365 & PMTCT HIV Negative &   6 \\ 
+  1414 & Preparation and submission of reports timely &   6 \\ 
+  1416 & Prescribed Nutrition Support Ready to Use Therapeutic Foods(RUTF) &   6 \\ 
+  1450 & Radiographers &   6 \\ 
+  1530 & Security staff &   6 \\ 
+  1594 & Symptoms, signs and abnormal clinical and laboratory findings &   6 \\ 
+  1636 & Total AE Post &   6 \\ 
+  1637 & Total available financing (kshs) &   6 \\ 
+  1689 & Trophozoites &   6 \\ 
+  57 & 2211102 Supplies \& Accessories for Computers \& Printers &   5 \\ 
+  160 & All others Medical Personnel &   5 \\ 
+  164 & All service areas have staff allocated &   5 \\ 
+  197 & Applicator sticks &   5 \\ 
+  229 & AWP Emergency surgical cases operated on within one hour &   5 \\ 
+  278 & AWP Number of surgical cold cases operated &   5 \\ 
+  321 & Blood Grouped &   5 \\ 
+  356 & Chapati &   5 \\ 
+  410 & CHIS Number of nutrition groups   &   5 \\ 
+  448 & Clinical officer &   5 \\ 
+  492 & Cotrimoxazole 480mg Tabs &   5 \\ 
+  582 & Efavirenz (EFV) 600mg Tabs &   5 \\ 
+  604 & Exposure to smoke, fire and flames &   5 \\ 
+  613 & Facility data used for decision making &   5 \\ 
+  622 & Facility meets staffing norms &   5 \\ 
+  646 & Field Stain A &   5 \\ 
+  647 & Field Stain B &   5 \\ 
+  679 & Functional Freezers &   5 \\ 
+  756 & HIV Diagnostic DTC/PITC Positive &   5 \\ 
+  768 & Hospital admissions (Female) AOP-yr &   5 \\ 
+  770 & Hospital admissions (Male) AOP-yr &   5 \\ 
+  793 & IDSR Plague &   5 \\ 
+  881 & IP: Discharge Non Recovered &   5 \\ 
+  913 & Latest financial report submitted to accountant  &   5 \\ 
+  924 & Lopinavir/ritonavir (LPV/r) 200/50mg Tabs &   5 \\ 
+  954 & Malnutrition Inpatient &   5 \\ 
+  978 & MDR - 1st (Personal or family related) &   5 \\ 
+  986 & MDR - Haemorrhage &   5 \\ 
+  1010 & Meat &   5 \\ 
+  1012 & Medical Consultants &   5 \\ 
+  1037 & Mortuary  &   5 \\ 
+  1038 & Mortuary attendants &   5 \\ 
+  1060 & Nevirapine (NVP) Susp 10mg/ml  (For ART) &   5 \\ 
+  1065 & New ART Initiated &   5 \\ 
+  1069 & New HIV Negative Male &   5 \\ 
+  1082 & New suspected smears Negative &   5 \\ 
+  1188 & Nutrition Interventions Prenatal &   5 \\ 
+  1241 & OPD ENT services room &   5 \\ 
+  1314 & Overall remark on adequacy of staff: Please  indicate 1 =Excellent  2= Good  3= Fair  4= Poor &   5 \\ 
+  1315 & Overall remark on availability of EMMS: Please  indicate 1 =Excellent  2= Good  3= Fair  4= Poor &   5 \\ 
+  1317 & Overall remark on HMIS: Please  indicate 1 =Excellent  2= Good  3= Fair  4= Poor &   5 \\ 
+  1356 & Physiotheraphy treatment private &   5 \\ 
+  1434 & ProphylaxisCotrim SS (480mg) &   5 \\ 
+  1435 & Provided with adherence counselling  &   5 \\ 
+  1452 & Radiology unit X-ray room &   5 \\ 
+  1494 & Revisiting TB+ &   5 \\ 
+  1496 & RF Positive &   5 \\ 
+  1534 & Service delivery appropriate for the level (KEPH package for level):  &   5 \\ 
+  1598 & TB cases detected-AOP-yr &   5 \\ 
+  1599 & Tb cases on Dots by Community volunteer &   5 \\ 
+  1618 & Telephone available (landline) &   5 \\ 
+  1626 & Tetanus &   5 \\ 
+  1686 & Treatment Outcomes Gaining Weight  &   5 \\ 
+  1814 & Zidovudine/Lamivudine/Nevirapine (AZT/3TC/NVP) FDC (300/150/200mg) Tabs &   5 \\ 
+  29 & 2110201 Contractual Employees &   4 \\ 
+  33 & 2210102 Water \& Sewerage charges &   4 \\ 
+  42 & 2210303 Outreach Services (DSA) &   4 \\ 
+  75 & 3. Number MDR-TB tested HIV+ &   4 \\ 
+  82 & 3111101 Purchase of Medical \& Medical Equipment &   4 \\ 
+  231 & AWP Facility Maternal deaths &   4 \\ 
+  234 & AWP Maternal deaths audited &   4 \\ 
+  319 & Blood chem.Fasting blood sugar &   4 \\ 
+  332 & Brucella A Positive &   4 \\ 
+  350 & CD4 CD8 for HIV positive &   4 \\ 
+  354 & Certain conditions orig in the perinatal period &   4 \\ 
+  458 & Communication equipment Fax machine &   4 \\ 
+  469 & Community Health Extension workers (CHEWs or PHTs) AOP-yr &   4 \\ 
+  550 & Doctors AOP-yr &   4 \\ 
+  563 & Dracunculosis &   4 \\ 
+  572 & E. Histolytica &   4 \\ 
+  581 & Efavirenz (EFV) 200mg Tabs &   4 \\ 
+  653 & Financial information shared among stakeholders &   4 \\ 
+  655 & First 6 months: EBF &   4 \\ 
+  701 & Health facilities providing treatment as per IMCI-AOP-yr &   4 \\ 
+  702 & Health facilities providing youth friendly services-AOP-yr &   4 \\ 
+  716 & HEI 1st  Review Birth Month &   4 \\ 
+  717 & HEI 2nd  Review Birth Month &   4 \\ 
+  734 & HEI: 1st Review Birth Year &   4 \\ 
+  735 & HEI: 2nd Review Birth Year &   4 \\ 
+  748 & HIV +ve cases receiving ART-AOP-yr &   4 \\ 
+  749 & HIV +ve patients starting ART AOP-yr &   4 \\ 
+  814 & Immunization (fully immunized) &   4 \\ 
+  853 & Inpatient services Nursery room  &   4 \\ 
+  904 & Laboratory staff &   4 \\ 
+  910 & Lamivudine (3TC) 150mg Tabs &   4 \\ 
+  984 & MDR - Conducted by Nurse / midwife &   4 \\ 
+  985 & MDR - Eclampsia &   4 \\ 
+  1032 & Milk bars &   4 \\ 
+  1041 & Mortuary Post-Mortem &   4 \\ 
+  1066 & New borns with low birth weight-AOP-yr &   4 \\ 
+  1067 & New FP clients &   4 \\ 
+  1085 & New TB+ &   4 \\ 
+  1121 & Number HIV+ TB Cases on ARV &   4 \\ 
+  1122 & Number HIV+ TB Cases on CPT &   4 \\ 
+  1128 & Number of  functional PLHIV support groups per facility &   4 \\ 
+  1129 & Number of  Hospital Therapeutic committee meetings held &   4 \\ 
+  1151 & Number of health facilities with functional anti-corruption committees &   4 \\ 
+  1154 & Number of Health sector coordinating committees meeting held at county level &   4 \\ 
+  1230 & OPD - all visits &   4 \\ 
+  1242 & OPD female - all visits &   4 \\ 
+  1249 & OPD Plaster room &   4 \\ 
+  1293 & Other acute lower respiratory infections &   4 \\ 
+  1318 & Overall remark on service delivery: Please  indicate 1 =Excellent  2= Good  3= Fair  4= Poor &   4 \\ 
+  1366 & PMTCT HIV positive &   4 \\ 
+  1490 & Retinoblastoma &   4 \\ 
+  1504 & Rodents &   4 \\ 
+  1526 & Screened for STI’s  &   4 \\ 
+  1620 & Tenofovir/Lamivudine (TDF/3TC) FDC (300/300mg) Tabs &   4 \\ 
+  1621 & Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) FDC (300/300/600mg) FDC Tabs &   4 \\ 
+  1694 & Typhoid (Typhus) &   4 \\ 
+  1740 & Urine Micro.Yeast Cells &   4 \\ 
+  1 &  Revisiting ART Initiated &   3 \\ 
+  39 & 2210301 Travel costs (airlines, bus, railway, mileage allowance, etc) &   3 \\ 
+  55 & 2211016 Staff Uniforms and Clothing &   3 \\ 
+  63 & 2220201 Maintenance of Plant, Machinery \& Equipment (including lifts) &   3 \\ 
+  64 & 2220202 Maintenance of Office Furniture \& Fittings &   3 \\ 
+  77 & 30. Number on CPT &   3 \\ 
+  79 & 3110599 Other Infrastructure \& Civil Works &   3 \\ 
+  80 & 3111002 Purchase of Computers, Printers \& Other IT  Equipment &   3 \\ 
+  81 & 3111003 Air-conditioners, Fans \& Heating Appliances &   3 \\ 
+  92 & 43. Results at 8 months HIV- &   3 \\ 
+  111 & 6 to 12 months: Breast feeding &   3 \\ 
+  115 & 6. Total Treatment Outcome of Confirmed MDR-TB Patients Starting Category IV Treatment (To be fo be filled in 24 and 36 months &   3 \\ 
+  130 & 70. Results at 8 months HIV Test Not Done &   3 \\ 
+  148 & Admissions for children under 1 year AOP-yr &   3 \\ 
+  149 & Adverse Events Following Immunization (Health Facility) &   3 \\ 
+  154 & All other external causes &   3 \\ 
+  169 & Amounts received in past 12 months (kshs) from MEDS &   3 \\ 
+  178 & ANC clients completed 4 visits &   3 \\ 
+  200 & Arm Sling Application Only &   3 \\ 
+  322 & Blood unit collected from RBTC &   3 \\ 
+  334 & Brucella M Positive &   3 \\ 
+  340 & C.T.E.V (Ponseti method) &   3 \\ 
+  367 & Children over 5 years treated for malaria AOP-yr &   3 \\ 
+  430 & Chronic lower respiratory diseases &   3 \\ 
+  440 & Clerk &   3 \\ 
+  454 & Commecial &   3 \\ 
+  498 & CT scan machine &   3 \\ 
+  517 & Deliveries &   3 \\ 
+  578 & Economist &   3 \\ 
+  588 & Emergency surgical cases &   3 \\ 
+  594 & Episodes with over 7 days stock-outs for any of the 22 tracer Essential medicines and Medical supplies &   3 \\ 
+  614 & Facility displaying quarterly information on drugs &   3 \\ 
+  624 & Facility supervised during last quarter &   3 \\ 
+  626 & Falcon tubes &   3 \\ 
+  673 & Fully Immunized Child (FIC) at 1 year (Outreach) &   3 \\ 
+  776 & Houses sprayed with IRS-AOP-yr &   3 \\ 
+  791 & IDSR Measles &   3 \\ 
+  898 & Knowledge of sexual partners HIV status &   3 \\ 
+  931 & Malaria inpatient cases-AOP-yr &   3 \\ 
+  959 & Matenal Deaths audited-AOP-yr &   3 \\ 
+  960 & Maternal Death Occurring in Health Facilities-AOP-yr &   3 \\ 
+  982 & MDR - Anaemia &   3 \\ 
+  987 & MDR - HIV/AIDS &   3 \\ 
+  989 & MDR - MgSO4 &   3 \\ 
+  992 & MDR - Parenteral Antihypertensives &   3 \\ 
+  995 & MDR DR TB cases &   3 \\ 
+  996 & MDR DR TB cases tested for HIV &   3 \\ 
+  1001 & Measles 2  Above 2 Years (Health Facility) &   3 \\ 
+  1143 & Number of clinical audit meetings held &   3 \\ 
+  1149 & Number of DRTB Patients with BMI $<$18.5 &   3 \\ 
+  1159 & Number of inpatient (admissions) Over 5 &   3 \\ 
+  1172 & Number of Persons with ill health referred to community Units  &   3 \\ 
+  1182 & Number staff members attended training during last quarter  &   3 \\ 
+  1262 & OPV (Birth dose) Within 2 weeks (Outreach) &   3 \\ 
+  1279 & Orthopaedic technology items private &   3 \\ 
+  1309 & Others Health workforce &   3 \\ 
+  1342 & Patients on ART  &   3 \\ 
+  1400 & Post - AE(s) Moderate Adverse Events (Circumcision) &   3 \\ 
+  1471 & Referrals \& Transfers Referred  for livelihood support &   3 \\ 
+  1480 & Remainder of diseases of the respiratory system &   3 \\ 
+  1487 & Residential &   3 \\ 
+  1493 & Revisiting  HIV Positive  &   3 \\ 
+  1510 & Round worm &   3 \\ 
+  1524 & Schools having adequate sanitation facilities AOP-yr &   3 \\ 
+  1617 & TB patients who have completed treatment-AOP-yr &   3 \\ 
+  1652 & Total Partners HIV Status &   3 \\ 
+  1671 & Traction Application &   3 \\ 
+  1687 & Treatment Outcomes Losing Weight &   3 \\ 
+  1691 & TT Plus (Boosters)Tetanus Toxoid for pregnant  women (Outreach &   3 \\ 
+  1736 & Urine Micro.Red blood cells &   3 \\ 
+  1745 & Urine Protain Positive &   3 \\ 
+  1763 & VDRL/RPR Positive &   3 \\ 
+  1765 & Visited home by a health care provider/HIV clinic peer educator. &   3 \\ 
+  1784 & Vitamin A At  6  Months (100,000 IU) (Outreach) &   3 \\ 
+  1787 & Vitamin A At 1 ½  Year (200,000IU) (Outreach) &   3 \\ 
+  1793 & Vitamin A Lactating Mothers (200,000IU) (outreach) &   3 \\ 
+  1807 & Yellow fever  Dose administered &   3 \\ 
+  1812 & Yellow Fever doses received within the Month &   3 \\ 
+  23 & 1st Dose Tetanus Toxoid for pregnant  women (Outreach) &   2 \\ 
+  37 & 2210203 Courier \& Postal Services &   2 \\ 
+  43 & 2210403 Daily Subsistence Allowance &   2 \\ 
+  66 & 2220210 Maintenance of Computers, Software \& Networks &   2 \\ 
+  83 & 33. Results at 2 months  &   2 \\ 
+  84 & 33. Results at 5 months  &   2 \\ 
+  85 & 35. Results at 8 months -HIV + &   2 \\ 
+  86 & 39. Number on ART &   2 \\ 
+  152 & All Other  infrustracture &   2 \\ 
+  188 & Anemia New  Normal &   2 \\ 
+  190 & Anemia New Severe &   2 \\ 
+  296 & Ban Cake &   2 \\ 
+  323 & Blood unit screen for syphilis &   2 \\ 
+  349 & CD4 CD8 for HIV Negative &   2 \\ 
+  353 & Central Government &   2 \\ 
+  409 & CHIS Number of men using FP &   2 \\ 
+  481 & Congenital malformations, deformations and chromosomal abnormalities &   2 \\ 
+  509 & Date last visited &   2 \\ 
+  539 & Disclosed their HIV status to sexual partners &   2 \\ 
+  551 & DOTS BY: Not done &   2 \\ 
+  592 & Entropion &   2 \\ 
+  662 & Fish stalls &   2 \\ 
+  675 & Fully Immunized Child (FIC) at 2 year (Outreach) &   2 \\ 
+  698 & Health Facilities providing BOEC-AOP-AOP-yr &   2 \\ 
+  705 & Health Facility offering specialized geriatric care &   2 \\ 
+  714 & Hearing/Speech Disorder New Cases &   2 \\ 
+  759 & HIV Negative MAM &   2 \\ 
+  782 & Hydrochloric acid (HCL) &   2 \\ 
+  788 & IDSR Cholera &   2 \\ 
+  888 & IP:Under GFD Programme &   2 \\ 
+  979 & MDR - 2nd (Access) &   2 \\ 
+  980 & MDR - 3rd (Quality of care) &   2 \\ 
+  990 & MDR - Oxytocics &   2 \\ 
+  994 & MDR -Conducted TBA &   2 \\ 
+  1003 & Measles 2  At 1 ½ - 2 Years (Outreach) &   2 \\ 
+  1051 & Municipalities &   2 \\ 
+  1052 & Muscular Dystrophy Old Cases &   2 \\ 
+  1058 & Neonatal Tetanus &   2 \\ 
+  1089 & NGO / CSO &   2 \\ 
+  1090 & No malaria parasites slides done &   2 \\ 
+  1095 & No. HIV positive at 1st visit &   2 \\ 
+  1127 & Number of  functional OVC support groups per facility &   2 \\ 
+  1130 & Number of adults OPD clients with BMI more than 25 &   2 \\ 
+  1133 & Number of children Under 5 dying in health facility &   2 \\ 
+  1153 & Number of Health sector coordinating  Committee meetings held at National level &   2 \\ 
+  1169 & Number of people receiving MDA for schistosomiasis in endemic districts &   2 \\ 
+  1180 & Number of TB Suspects (Cough for 2 weeks or more) referred to Health facility for diagnosis &   2 \\ 
+  1189 & Nutritional Support - FS &   2 \\ 
+  1190 & Nutritional Support - MN &   2 \\ 
+  1191 & Nutritional Support - NC &   2 \\ 
+  1192 & Nutritional Support - ND &   2 \\ 
+  1274 & Orbital &   2 \\ 
+  1281 & Orthopaedic treatment private &   2 \\ 
+  1325 & Panadol tabs &   2 \\ 
+  1327 & Paraplegia New Cases &   2 \\ 
+  1383 & Poliomyelitis (AFP) &   2 \\ 
+  1401 & Post - AE(s) Severe Adverse Events (Circumcision) &   2 \\ 
+  1477 & Remainder of diseases of the blood &   2 \\ 
+  1479 & Remainder of diseases of the genitourinary system &   2 \\ 
+  1482 & Remainder of pregnancy, childbirth and the puerperium &   2 \\ 
+  1492 & Revisiting  HIV Negative  &   2 \\ 
+  1555 & Smear Positive AFB &   2 \\ 
+  1559 & Smear positive TB patients cured (smear negative) AOP-yr &   2 \\ 
+  1560 & Smears FL/UP suspected Negative &   2 \\ 
+  1569 & Squint &   2 \\ 
+  1613 & TB patients started on treatment &   2 \\ 
+  1645 & Total health personnel AOP-yr &   2 \\ 
+  1650 & Total on Nutritional Support  &   2 \\ 
+  1684 & Treatment Outcomes Cured &   2 \\ 
+  1685 & Treatment Outcomes Discharged &   2 \\ 
+  1716 & Upper limb Fracture New Cases &   2 \\ 
+  1720 & Urethral swab G/C Negative &   2 \\ 
+  1722 & Urine Candidiasis &   2 \\ 
+  1725 & Urine Chem-Proteins &   2 \\ 
+  1726 & urine chem glucose\_totalexam &   2 \\ 
+  1728 & urine chem proteins\_numpos &   2 \\ 
+  1729 & Urine Micro- Other test done &   2 \\ 
+  1734 & urine micro pus cells $>$ 5hpf totalexam &   2 \\ 
+  1760 & VCT HIV Negative &   2 \\ 
+  1761 & VCT HIV positive &   2 \\ 
+  1806 & Xerophthalmia &   2 \\ 
+  1808 & Yellow Fever Antigen &   2 \\ 
+  7 & 1000000 Income/Revenue &   1 \\ 
+  34 & 2210200 Communication Supplies \& Services &   1 \\ 
+  36 & 2210202 Internet Connection &   1 \\ 
+  45 & 2210504 Advertising, Awareness and Publicity Campaigns &   1 \\ 
+  46 & 2210701 Travel Allowance &   1 \\ 
+  73 & 2nd Dose Tetanus Toxoid for pregnant  women (Outreach) &   1 \\ 
+  112 & 6 to 12 months:Began complementary feeding &   1 \\ 
+  128 & 7. New (N) &   1 \\ 
+  134 & 8. Relapse (R ) &   1 \\ 
+  138 & 9. Return After Default (RAD) &   1 \\ 
+  189 & Anemia New Moderate &   1 \\ 
+  207 & Assault  &   1 \\ 
+  212 & Auramine-O (*for District hospital labs) &   1 \\ 
+  252 & AWP Number of Health facilities providing Caesarean sections &   1 \\ 
+  284 & AWP People receiving MDA for Schistosomiasis in Endemic Districts &   1 \\ 
+  316 & Biochemistry Blood Sugar above normal &   1 \\ 
+  317 & Biochemistry Blood Sugar below Normal &   1 \\ 
+  324 & Blood unit screen found HIV+ve &   1 \\ 
+  325 & Blood unit transfused &   1 \\ 
+  341 & Ca of breast &   1 \\ 
+  346 & Carbol Fuschin (solution) &   1 \\ 
+  359 & Children $<$1 year deaths occuring at facility AOP-yr &   1 \\ 
+  407 & CHIS Number of children $<$ 5 years with danger signs referred &   1 \\ 
+  429 & Cholera &   1 \\ 
+  455 & Comments (on Commodity logistics and clinical issues, including explanation of Losses \& Adjustments) &   1 \\ 
+  470 & Community Health Workers (CHWs) AOP-yr &   1 \\ 
+  472 & Community health workers trained with Kits AOP-yr &   1 \\ 
+  514 & Deaths/Discharges AOP-yr &   1 \\ 
+  533 & Dilation and Curettage &   1 \\ 
+  544 & Diseases of the eye and adnexa &   1 \\ 
+  545 & Diseases of the liver &   1 \\ 
+  546 & Diseases of the musculoskeletal system and connective tissue &   1 \\ 
+  547 & Diseases of the skin and subcutaneous tissue &   1 \\ 
+  549 & Districts with functional DHSF-AOP-yr &   1 \\ 
+  552 & Down's Syndrome - New cases &   1 \\ 
+  682 & Gastric and duodenal ulcer &   1 \\ 
+  690 & Glomerular and renal tubulointerstitial diseases &   1 \\ 
+  691 & GOK Health Facilities reporting AOP-yr &   1 \\ 
+  699 & Health Facilities providing CEOC-AOP-yr &   1 \\ 
+  703 & Health facilities without tracer drugs for more than 14 days-AOP-yr &   1 \\ 
+  710 & Health personnel trained on HSSF &   1 \\ 
+  760 & HIV Negative SAM &   1 \\ 
+  784 & Hypertensive diseases &   1 \\ 
+  789 & IDSR Dysentery (Bacillary) &   1 \\ 
+  797 & IHRIS Accountants &   1 \\ 
+  798 & IHRIS Administrators &   1 \\ 
+  799 & IHRIS Drivers &   1 \\ 
+  800 & IHRIS Health Record \& Information Officers &   1 \\ 
+  801 & IHRIS Health Record \& Information Technicians &   1 \\ 
+  802 & IHRIS Human Resource Officers &   1 \\ 
+  803 & IHRIS Medical Engineering Technicians &   1 \\ 
+  804 & IHRIS Medical Engineering Technologists &   1 \\ 
+  805 & IHRIS Nutritionists &   1 \\ 
+  806 & IHRIS Occupational Therapists &   1 \\ 
+  807 & IHRIS Orthopaedic Technologists &   1 \\ 
+  808 & IHRIS Pharmacist Technologists &   1 \\ 
+  809 & IHRIS Pharmacists &   1 \\ 
+  810 & IHRIS Physiotherapists &   1 \\ 
+  811 & IHRIS Public Health Officers &   1 \\ 
+  812 & IHRIS Public Health Technicians &   1 \\ 
+  813 & IHRIS Radiographers &   1 \\ 
+  831 & Infil. Gallaries &   1 \\ 
+  859 & Internet Connection &   1 \\ 
+  870 & IP - Discharged against medical advice &   1 \\ 
+  894 & Japanese Government (JICA) &   1 \\ 
+  909 & Labour Ward &   1 \\ 
+  916 & Lens Tissue &   1 \\ 
+  923 & Locrimal &   1 \\ 
+  933 & Malaria inpatients deaths-AOP-yr &   1 \\ 
+  981 & MDR - Abortion &   1 \\ 
+  983 & MDR - Conducted by Doctor &   1 \\ 
+  988 & MDR - Malaria &   1 \\ 
+  991 & MDR - Parenteral Antibiotics &   1 \\ 
+  993 & MDR - Transfusion &   1 \\ 
+  997 & MDR DR TB cases tested HIV+ &   1 \\ 
+  1022 & Mental Retardation New Cases &   1 \\ 
+  1023 & Mental Retardation Old Cases &   1 \\ 
+  1024 & Methylene Blue &   1 \\ 
+  1028 & Microscope slides (TB-RELATED LABORATORY COMMODITIES) &   1 \\ 
+  1081 & New smear-positive TB cases-AOP-yr &   1 \\ 
+  1083 & New suspected smears Positive &   1 \\ 
+  1087 & Newborn Disability Screened - New Cases &   1 \\ 
+  1116 & Not Functional Freezers &   1 \\ 
+  1119 & Number HIV- &   1 \\ 
+  1120 & Number HIV+ &   1 \\ 
+  1141 & Number of clients waived &   1 \\ 
+  1146 & Number of complaints registered &   1 \\ 
+  1160 & Number of inpatients (admissions) Under 5 &   1 \\ 
+  1206 & Occupied bed days (OBD) AOP-yr &   1 \\ 
+  1275 & Ordinary X\_RAY Specify Machines &   1 \\ 
+  1294 & Other Community / NGO &   1 \\ 
+  1300 & Other intestinal infectious &   1 \\ 
+  1302 & Other Public Sources &   1 \\ 
+  1326 & Pans &   1 \\ 
+  1404 & Potassium Permanganate (*for District hospital labs) &   1 \\ 
+  1408 & Pregnancy with abortive outcome &   1 \\ 
+  1439 & Psychosis New Cases &   1 \\ 
+  1440 & Psyschosis Old Cases &   1 \\ 
+  1472 & Referrals \& Transfers Referred to in-patient/other clinics &   1 \\ 
+  1473 & Referrals \& TransfersTransferred &   1 \\ 
+  1478 & Remainder of diseases of the digestive system &   1 \\ 
+  1488 & Respiratory Tuberculosis &   1 \\ 
+  1511 & RPR Test &   1 \\ 
+  1516 & S. Mansoni &   1 \\ 
+  1587 & Sulphuric acid &   1 \\ 
+  1675 & Trained Community Health Workers AOP-yr &   1 \\ 
+  1679 & Transport accidents &   1 \\ 
+  1688 & Treatment Outcomes Static weight &   1 \\ 
+  1697 & Ultrasound Machine &   1 \\ 
+  1698 & UN agency (UNICEF) &   1 \\ 
+  1723 & Urine Chem- Bilirubin &   1 \\ 
+  1724 & Urine Chem- HGC &   1 \\ 
+  1727 & urine chem ketones\_texam &   1 \\ 
+  1731 & Urine Micro- S. Haematobium numpos &   1 \\ 
+  1732 & Urine Micro- S. Haematobium totalexam &   1 \\ 
+  1733 & urine micro pus cells $>$ 5hpf numpos &   1 \\ 
+  1735 & Urine Micro.Bacteria totalexam &   1 \\ 
+  1737 & Urine Micro.T.vaginalis &   1 \\ 
+  1738 & Urine Micro.T.vaginalis numpos &   1 \\ 
+  1739 & Urine Micro.T.vaginalis totalexam &   1 \\ 
+  1741 & Urine Micro.Yeast Cells numpos &   1 \\ 
+  1742 & Urine Micro.Yeast Cells totalexam &   1 \\ 
+  1746 & Urine Sugar Positive &   1 \\ 
+  1747 & Urine Trichomoniasis &   1 \\ 
+  1764 & Viral Haemorrhagic Fever &   1 \\ 
+  1766 & Vit A. 100,000 IU &   1 \\ 
+  1774 & Vitamin A 2 Years to  5 Years (200,000IU) (outreach) &   1 \\ 
+  1788 & Vitamin A at 1 year (200,000 IU) &   1 \\ 
+  1797 & Water \& Sewerage Charges &   1 \\ 
+  1809 & Yellow fever cases &   1 \\ 
+   \hline
+\end{tabular}
+\end{table}
