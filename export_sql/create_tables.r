@@ -86,7 +86,7 @@ columnTypes = list(
 					'INT NOT NULL', 'INT NOT NULL', 'VARCHAR(45)', 'INT', 'INT NOT NULL', 'INT NOT NULL'),
 	'organization_units'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)', 
 							'VARCHAR(45)', 'VARCHAR(45)', 'INT NOT NULL' , 'INT NOT NULL'),
-	'groups_pivot'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL'),
+	'groups_pivot'=c('INT NOT NULL AUTO_INCREMENT PRIMARY KEY', 'INT NOT NULL', 'INT NOT NULL'),
 	'groups'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)'),
 	'age'=c('INT NOT NULL AUTO_INCREMENT', 'INT NOT NULL', 'INT NOT NULL'),
 	'gender'=c('INT NOT NULL AUTO_INCREMENT', 'VARCHAR(45)'),
@@ -129,12 +129,12 @@ for(table in tables) {
   
 	# set up string to create blank table
 	createString = paste0('CREATE TABLE ', dbName, '.', table, ' (')
-	print(createString)
+	#print(createString)
 	c=1
 	for(column in columns[[table]]) {
-	  print(column)
+	  print(paste0('     ' , column))
 		type = columnTypes[[table]][c]
-		print(type)
+		#print(type)
 		createString = paste0(createString, ' ', column, ' ', type, ', ')
 		c=c+1
 	}
@@ -147,7 +147,7 @@ for(table in tables) {
 	# import data table from disk
 	dbGetQuery(con, paste0('LOAD DATA LOCAL INFILE \'', 
 					files[[table]], '\' INTO TABLE ', 
-					table, ' FIELDS TERMINATED BY \',\' LINES TERMINATED BY \'\n\';'))
+					table, ' FIELDS TERMINATED BY \',\' IGNORE 1 LINES;'))
 }
 
 
