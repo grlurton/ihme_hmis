@@ -1,0 +1,40 @@
+table,column,type,default,nullable,character_set,extra
+data_values,value_ID,INT,,NOT NULL,,AUTO_INCREMENT
+data_values,organization_unit_ID,INT,,NOT NULL,,
+data_values,indicator_ID,INT,,NOT NULL,,
+data_values,age_ID,INT,,NOT NULL,,
+data_values,gender_ID,INT,,NOT NULL,,
+data_values,period,VARCHAR(45),,,,
+data_values,value,INT,,,,
+data_values,source_ID,INT,,NOT NULL,,
+data_values,NID,INT,,NOT NULL,,
+organization_units,organization_unit_ID,INT,,NOT NULL,,AUTO_INCREMENT
+organization_units,organization_unit_name,VARCHAR(45),,,,
+organization_units,organization_unit_start,VARCHAR(45),,,,
+organization_units,organization_unit_end,VARCHAR(45),,,,
+organization_units,group_pivot_ID,INT,,NOT NULL,,
+organization_units,country_ID,INT,,NOT NULL,,
+groups_pivot,group_pivot_ID,INT,,NOT NULL,,AUTO_INCREMENT
+groups_pivot,organization_unit_ID,INT,,NOT NULL,,
+groups_pivot,group_ID,INT,,NOT NULL,,
+groups,group_ID,INT,,NOT NULL,,AUTO_INCREMENT
+groups,group_name,VARCHAR(45),,,,
+age,age_ID,INT,,NOT NULL,,AUTO_INCREMENT
+age,age_min,INT,,NOT NULL,,
+age,age_max,INT,,NOT NULL,,
+gender,gender_ID,INT,,NOT NULL,,AUTO_INCREMENT
+gender,gender_name,VARCHAR(45),,,,
+source,source_ID,INT,,NOT NULL,,AUTO_INCREMENT
+source,source_name,VARCHAR(45),,,,
+source,source_date,VARCHAR(45),,,,
+data_elements,data_element_ID,INT,,NOT NULL,,AUTO_INCREMENT
+data_elements,data_element_name,VARCHAR(45),,,,
+data_elements,metadata_pivot_ID,INT,,NOT NULL,,
+data_elements,country_ID,INT,,NOT NULL,,
+metadata_pivot,metadata_pivot_ID,INT,,NOT NULL,,AUTO_INCREMENT
+metadata_pivot,data_element_ID,INT,,NOT NULL,,
+metadata_pivot,metadata_ID,INT,,NOT NULL,,
+metadata,metadata_ID,INT,,NOT NULL,,AUTO_INCREMENT
+metadata,metadata_label,VARCHAR(45),,,,
+country,country_ID,INT,,NOT NULL,,AUTO_INCREMENT
+country,country_name,VARCHAR(45),,,,

@@ -1,0 +1,12 @@
+table,primary_key
+data_values,value_ID
+organization_unit,organization_unit_ID
+groups_pivot_ID,group_ID
+data_elements,data_element_ID
+metadata_pivot,metadata_pivot_ID
+groups,group_ID
+country,country_ID
+age,age_ID
+gender,gender_ID
+source,source_ID
+metadata,metadata_ID
