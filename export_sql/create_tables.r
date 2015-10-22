@@ -92,7 +92,6 @@ primaryKeys <- list()
 for (table in unique(primary_keys$table)){
   primaryKeys[[table]] <- primary_keys$primary_key[primary_keys$table == table]
 }
-
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -108,7 +107,7 @@ for(table in tables) {
   print(table)
 	dbGetQuery(con, paste0('DROP TABLE IF EXISTS ', table, ';'))
   
-	# set up string to create blank table
+	# set up string to create blank table 
 	createString = paste0('CREATE TABLE ', dbName, '.', table, ' (')
 	#print(createString)
 	c=1
@@ -130,6 +129,8 @@ for(table in tables) {
 					files[[table]], '\' INTO TABLE ', 
 					table, ' FIELDS TERMINATED BY \',\' IGNORE 1 LINES;'))
 }
+
+dbGetQuery(con, 'ALTER TABLE data_values ADD FOREIGN KEY (indicator_ID) REFERENCES data_elements (data_element_ID);')
 
 
 dbDisconnect(con)
