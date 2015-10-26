@@ -62,7 +62,8 @@ files = list(
 )
 
 # Columns
-data_structure <- read.csv('structure/data_structure.csv' , stringsAsFactors = FALSE)
+data_structure <- read.csv('c://users/grlurton/documents/ihmehmis/export_sql/structure/data_structure.csv' , 
+                           stringsAsFactors = FALSE)
 data_structure[is.na(data_structure)] <- ''
 
 
@@ -86,7 +87,8 @@ for (tab_value in unique(data_structure$table)){
 
 
 # Primary keys
-primary_keys <- read.csv('structure/primary_keys.csv' , stringsAsFactors = FALSE)
+primary_keys <- read.csv('c://users/grlurton/documents/ihmehmis/export_sql/structure/primary_keys.csv' ,
+                         stringsAsFactors = FALSE)
 primary_keys[is.na(primary_keys)] <- ''
 primaryKeys <- list()
 for (table in unique(primary_keys$table)){
