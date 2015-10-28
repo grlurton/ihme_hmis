@@ -11,13 +11,13 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 -- -----------------------------------------------------
 -- Schema hmis
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `hmis` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
-USE `hmis` ;
+CREATE SCHEMA IF NOT EXISTS`hmis` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE`hmis` ;
 
 -- -----------------------------------------------------
--- Table `hmis`.`source`
+-- Table`hmis`.`source`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `hmis`.`source` (
+CREATE TABLE IF NOT EXISTS`hmis`.`source` (
   `source_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `source_name` VARCHAR(45) NOT NULL COMMENT '',
   `source_date` DATETIME NOT NULL COMMENT '',
@@ -27,19 +27,19 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `hmis`.`country`
+-- Table`hmis`.`country`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `hmis`.`country` (
+CREATE TABLE IF NOT EXISTS`hmis`.`country` (
   `country_ISO` VARCHAR(3) NOT NULL COMMENT '',
-  `country_name` VARCHAR(45) NOT NULL COMMENT '',
+  `country_name` VARCHAR(120) NOT NULL COMMENT '',
   PRIMARY KEY (`country_ISO`)  COMMENT '')
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `hmis`.`organization_units`
+-- Table`hmis`.`organization_units`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `hmis`.`organization_units` (
+CREATE TABLE IF NOT EXISTS`hmis`.`organization_units` (
   `organization_unit_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `organization_unit_name` VARCHAR(45) NOT NULL COMMENT '',
   `organization_unit_start` VARCHAR(45) NULL COMMENT '',
@@ -51,16 +51,16 @@ CREATE TABLE IF NOT EXISTS `hmis`.`organization_units` (
   INDEX `organization_unit_to_country_idx` (`country_ISO` ASC)  COMMENT '',
   CONSTRAINT `organization_unit_to_country`
     FOREIGN KEY (`country_ISO`)
-    REFERENCES `hmis`.`country` (`country_ISO`)
+    REFERENCES `hmis`.`country`(`country_ISO`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `hmis`.`data_elements`
+-- Table`hmis`.`data_elements`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `hmis`.`data_elements` (
+CREATE TABLE IF NOT EXISTS`hmis`.`data_elements` (
   `data_element_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `data_element_name` VARCHAR(45) NOT NULL COMMENT '',
   `metadata_pivot_ID` INT NULL COMMENT '',
@@ -77,9 +77,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `hmis`.`category`
+-- Table`hmis`.`category`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `hmis`.`category` (
+CREATE TABLE IF NOT EXISTS`hmis`.`category` (
   `category_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `category_name` VARCHAR(45) NOT NULL COMMENT '',
   `country_ISO3` VARCHAR(3) NOT NULL COMMENT '',
@@ -95,9 +95,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `hmis`.`data_values`
+-- Table`hmis`.`data_values`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `hmis`.`data_values` (
+CREATE TABLE IF NOT EXISTS`hmis`.`data_values` (
   `value_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `organization_unit_ID` INT NOT NULL COMMENT '',
   `data_element_ID` INT NOT NULL COMMENT '',
@@ -133,8 +133,3 @@ CREATE TABLE IF NOT EXISTS `hmis`.`data_values` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
-
-
-SET SQL_MODE=@OLD_SQL_MODE;
-SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
-SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
