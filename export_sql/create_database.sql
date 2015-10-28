@@ -30,10 +30,9 @@ ENGINE = InnoDB;
 -- Table `hmis`.`country`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `hmis`.`country` (
-  `country_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `country_ISO` VARCHAR(3) NOT NULL COMMENT '',
   `country_name` VARCHAR(45) NOT NULL COMMENT '',
-  PRIMARY KEY (`country_ID`)  COMMENT '',
-  UNIQUE INDEX `idcountry_UNIQUE` (`country_ID` ASC)  COMMENT '')
+  PRIMARY KEY (`country_ISO`)  COMMENT '')
 ENGINE = InnoDB;
 
 
@@ -45,14 +44,14 @@ CREATE TABLE IF NOT EXISTS `hmis`.`organization_units` (
   `organization_unit_name` VARCHAR(45) NOT NULL COMMENT '',
   `organization_unit_start` VARCHAR(45) NULL COMMENT '',
   `organization_unit_end` VARCHAR(45) NULL COMMENT '',
-  `country_ID` INT NOT NULL COMMENT '',
+  `country_ISO` VARCHAR(3) NOT NULL COMMENT '',
   `group_pivot_ID` VARCHAR(45) NULL COMMENT '',
   PRIMARY KEY (`organization_unit_ID`)  COMMENT '',
   UNIQUE INDEX `idorganization_units_UNIQUE` (`organization_unit_ID` ASC)  COMMENT '',
-  INDEX `organization_unit_to_country_idx` (`country_ID` ASC)  COMMENT '',
+  INDEX `organization_unit_to_country_idx` (`country_ISO` ASC)  COMMENT '',
   CONSTRAINT `organization_unit_to_country`
-    FOREIGN KEY (`country_ID`)
-    REFERENCES `hmis`.`country` (`country_ID`)
+    FOREIGN KEY (`country_ISO`)
+    REFERENCES `hmis`.`country` (`country_ISO`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -65,13 +64,13 @@ CREATE TABLE IF NOT EXISTS `hmis`.`data_elements` (
   `data_element_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `data_element_name` VARCHAR(45) NOT NULL COMMENT '',
   `metadata_pivot_ID` INT NULL COMMENT '',
-  `country_ID` INT NOT NULL COMMENT '',
+  `country_ISO` CHAR(3) NOT NULL COMMENT '',
   PRIMARY KEY (`data_element_ID`)  COMMENT '',
   UNIQUE INDEX `data_elements_ID_UNIQUE` (`data_element_ID` ASC)  COMMENT '',
-  INDEX `data_element_to_country_idx` (`country_ID` ASC)  COMMENT '',
+  INDEX `data_element_to_country_idx` (`country_ISO` ASC)  COMMENT '',
   CONSTRAINT `data_element_to_country`
-    FOREIGN KEY (`country_ID`)
-    REFERENCES `hmis`.`country` (`country_ID`)
+    FOREIGN KEY (`country_ISO`)
+    REFERENCES `hmis`.`country` (`country_ISO`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -83,13 +82,13 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `hmis`.`category` (
   `category_ID` INT NOT NULL AUTO_INCREMENT COMMENT '',
   `category_name` VARCHAR(45) NOT NULL COMMENT '',
-  `country_ID` INT NOT NULL COMMENT '',
+  `country_ISO3` VARCHAR(3) NOT NULL COMMENT '',
   PRIMARY KEY (`category_ID`)  COMMENT '',
   UNIQUE INDEX `category_ID_UNIQUE` (`category_ID` ASC)  COMMENT '',
-  INDEX `country_to_category_idx` (`country_ID` ASC)  COMMENT '',
+  INDEX `country_to_category_idx` (`country_ISO3` ASC)  COMMENT '',
   CONSTRAINT `country_to_category`
-    FOREIGN KEY (`country_ID`)
-    REFERENCES `hmis`.`country` (`country_ID`)
+    FOREIGN KEY (`country_ISO3`)
+    REFERENCES `hmis`.`country` (`country_ISO`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -134,54 +133,6 @@ CREATE TABLE IF NOT EXISTS `hmis`.`data_values` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `hmis`.`metadata_pivot`
--- -----------------------------------------------------
--- CREATE TABLE IF NOT EXISTS `hmis`.`metadata_pivot` (
--- )
--- ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `hmis`.`metadata`
--- -----------------------------------------------------
--- CREATE TABLE IF NOT EXISTS `hmis`.`metadata` (
--- )
--- ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `hmis`.`groups_pivot`
--- -----------------------------------------------------
--- CREATE TABLE IF NOT EXISTS `hmis`.`groups_pivot` (
--- )
--- ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `hmis`.`groups`
--- -----------------------------------------------------
--- CREATE TABLE IF NOT EXISTS `hmis`.`groups` (
--- )
--- ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `hmis`.`age`
--- -----------------------------------------------------
--- CREATE TABLE IF NOT EXISTS `hmis`.`age` (
--- )
--- ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `hmis`.`gender`
--- -----------------------------------------------------
--- CREATE TABLE IF NOT EXISTS `hmis`.`gender` (
--- )
--- ENGINE = InnoDB;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
